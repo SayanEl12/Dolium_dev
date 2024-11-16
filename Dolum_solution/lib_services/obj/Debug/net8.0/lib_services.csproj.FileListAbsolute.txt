@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_services.deps.json
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_services.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_services.pdb
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.sourcelink.json
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\refint\lib_services.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_services.pdb
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\ref\lib_services.dll
