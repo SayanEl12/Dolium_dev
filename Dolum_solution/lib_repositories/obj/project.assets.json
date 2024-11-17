@@ -2823,44 +2823,38 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.EntityFrameworkCore >= 9.0.0",
       "lib_entities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/santiago-herrera/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\lib_repositories.csproj",
+      "projectUniqueName": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_repositories/lib_repositories.csproj",
       "projectName": "lib_repositories",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\lib_repositories.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\obj\\",
+      "projectPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_repositories/lib_repositories.csproj",
+      "packagesPath": "/home/santiago-herrera/.nuget/packages/",
+      "outputPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_repositories/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/santiago-herrera/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj"
+            "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/lib_entities.csproj": {
+              "projectPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/lib_entities.csproj"
             }
           }
         }
@@ -2873,13 +2867,18 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -2896,7 +2895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/santiago-herrera/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
