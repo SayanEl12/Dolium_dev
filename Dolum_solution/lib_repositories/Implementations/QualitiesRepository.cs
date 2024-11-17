@@ -2,7 +2,7 @@ using lib_entities;
 using lib_repositories.Interfaces;
 
 namespace lib_repositories.Implementations;
-public class QualitiesRepository
+public class QualitiesRepository : IQualitiesRepository
 {
     private Connection? _connection;
 

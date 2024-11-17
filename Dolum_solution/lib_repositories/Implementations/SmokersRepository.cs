@@ -1,5 +1,6 @@
 using lib_entities;
 using lib_repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
 public class SmokersRepository : ISmokersRespository
@@ -27,6 +28,12 @@ public class SmokersRepository : ISmokersRespository
         _connection!.Commit();
         return entity;
     }
+
+    public List<Smokers> Search(Expression<Func<Smokers,bool>> conditions)
+    {
+        return _connection!.Search(conditions);
+    }
+    
 
     public Smokers Modify(Smokers entity)
     {

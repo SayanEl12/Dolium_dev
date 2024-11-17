@@ -12,7 +12,7 @@ namespace lib_entities
         [Key] public int Id { get; set; }
         public string? Name { get; set; }
         public string? Email{ get; set; }
-        public string? Quality { get; set; }
+        public int Quality { get; set; }
         public string? Password { get; set; }
         public DateTime Register_date { get; set; }
         

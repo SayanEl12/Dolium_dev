@@ -7,6 +7,8 @@ public class Connection : DbContext
 {
     // this is the connection string it must have a format like:
     // host:localhost, 
+    public int Size = 20;
+
     public string? StringConnection { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -20,7 +22,7 @@ public class Connection : DbContext
     protected DbSet<Images>? Images { get; set; }
     protected DbSet<Logs>? Logs { get; set; }
     protected DbSet<Qualities>? Qualities { get; set; }
-    protected DbSet<Sale_Productcs>? Sale_Productcs { get; set; }
+    protected DbSet<Sale_Product>? Sale_Product { get; set; }
     protected DbSet<Sales>? Sales { get; set; }
     
     public virtual DbSet<T> GetDataSet<T>() where T : class, new()
@@ -42,6 +44,13 @@ public class Connection : DbContext
     public virtual void Save<T>(T entity) where T : class, new()
     {
         this.Set<T>().Add(entity);
+    }
+    public virtual List<T> Search<T>(Expression<Func<T,bool>> conditions) where T : class, new()
+    {
+        return this.Set<T>()
+        .Where(conditions)
+        .Take(Size)
+        .ToList();
     }
     public virtual void Modify<T>(T entity) where T : class
     {

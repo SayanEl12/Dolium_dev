@@ -7,5 +7,5 @@ public interface IQualitiesRepository
     List<Qualities> GetList();
     Qualities Save(Qualities entity);
     Qualities Modify(Qualities entity);
-    Qualities Delete(Smokers entity);
+    Qualities Delete(Qualities entity);
 }
