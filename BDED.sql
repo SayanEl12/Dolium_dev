@@ -58,11 +58,11 @@ CREATE TABLE [Sales] (
 GO
 
 -- Tabla Sale-Product
-CREATE TABLE [Sale-Product] (
-    [FrKey_Sale] INT NOT NULL,
+CREATE TABLE [Sale_Product] (
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[FrKey_Sale] INT NOT NULL,
     [FrKey_Smoker] INT NOT NULL,
     [Cant] INT NOT NULL,
-    PRIMARY KEY (FrKey_Sale, FrKey_Smoker),
     FOREIGN KEY (FrKey_Sale) REFERENCES Sales(Id),
     FOREIGN KEY (FrKey_Smoker) REFERENCES Smokers(Id)
 );
@@ -70,7 +70,7 @@ GO
 
 -- Tabla Logs
 CREATE TABLE [Logs] (
-    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), -- Auto-incrementa desde 1
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
     [FrKey_User] INT NOT NULL,
     [Description] VARCHAR(255) NOT NULL,
     [Date] DATE NOT NULL,
@@ -173,13 +173,13 @@ SELECT * FROM V_Sales;
 GO
 
 -- Insercion de registros en Venta_Producto
-INSERT INTO [Sale-Product] (FrKey_Sale, FrKey_Smoker, Cant) VALUES
+INSERT INTO [Sale_Product] (FrKey_Sale, FrKey_Smoker, Cant) VALUES
 (1, 1, 2),
 (2, 4, 1),
 (3, 5, 1),
 (4, 2, 2),
 (5, 6, 2);
---SELECT* FROM [Sale-Product]
+--SELECT* FROM [Sale_Product]
 
 
 CREATE VIEW Vista_Ventas_Productos AS
@@ -193,7 +193,7 @@ SELECT
     s.Value AS ValorTotal,
     s.Address AS Direccion
 FROM 
-    [Sale-Product] sp
+    [Sale_Product] sp
 JOIN 
     Sales s ON sp.FrKey_Sale = s.Id
 JOIN 

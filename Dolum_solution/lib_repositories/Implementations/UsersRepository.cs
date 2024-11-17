@@ -1,5 +1,6 @@
 using lib_entities;
 using lib_repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
 public class UsersRepository : IUsersRepository
@@ -26,6 +27,11 @@ public class UsersRepository : IUsersRepository
         _connection!.Save(entity);
         _connection!.Commit();
         return entity;
+    }
+
+    public List<Users> Search(Expression<Func<Users, bool>> conditions)
+    {
+        return _connection!.Search(conditions);
     }
 
     public Users Modify(Users entity)

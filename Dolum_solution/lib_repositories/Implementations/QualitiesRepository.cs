@@ -1,8 +1,9 @@
 using lib_entities;
 using lib_repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
-public class QualitiesRepository
+public class QualitiesRepository : IQualitiesRepository
 {
     private Connection? _connection;
 
@@ -28,6 +29,10 @@ public class QualitiesRepository
         return entity;
     }
 
+    public List<Qualities> Search(Expression<Func<Qualities, bool>> conditions)
+    {
+        return _connection!.Search(conditions);
+    }
     public Qualities Modify(Qualities entity)
     {
         _connection!.Modify(entity);

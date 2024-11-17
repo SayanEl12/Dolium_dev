@@ -1,5 +1,6 @@
 using lib_entities;
 using lib_repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
 public class LogsRepository : ILogsRepository
@@ -27,7 +28,10 @@ public class LogsRepository : ILogsRepository
         _connection!.Commit();
         return entity;
     }
-
+    public List<Logs> Search(Expression<Func<Logs, bool>> conditions)
+    {
+        return _connection!.Search(conditions);
+    }
     public Logs Modify(Logs entity)
     {
         _connection!.Modify(entity);
