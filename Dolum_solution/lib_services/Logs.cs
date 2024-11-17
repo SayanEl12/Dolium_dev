@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace lib_entities
 {
+    [Keyless]
     public class Logs
     {
         public int FrKey_User { get; set; }

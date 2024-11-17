@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace lib_entities
 {
+    [Keyless]
     public class Sale_Productcs
     {
         public int FrKey_Sale { get; set; }
