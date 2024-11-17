@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_services.csproj|solutionrelative:lib_services\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\lib_services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_services.csproj|solutionrelative:lib_services\\lib_services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\lib_entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\lib_entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "lib_services\\Sale-Productcs.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Sale-Productcs.cs",
               "RelativeToolTip": "lib_services\\Sale-Productcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T22:42:39.031Z",
               "EditorCaption": ""
@@ -80,7 +80,8 @@
               "RelativeToolTip": "lib_services\\Sales.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:38:03.566Z"
+              "WhenOpened": "2024-11-16T22:38:03.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,7 +106,8 @@
               "RelativeToolTip": "lib_services\\Smokers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:25:06.484Z"
+              "WhenOpened": "2024-11-16T22:25:06.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -117,7 +119,8 @@
               "RelativeToolTip": "lib_services\\Qualities.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:21:36.93Z"
+              "WhenOpened": "2024-11-16T22:21:36.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -129,16 +132,17 @@
               "RelativeToolTip": "lib_services\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:09:18.422Z"
+              "WhenOpened": "2024-11-16T22:09:18.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "lib_services.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_services.csproj",
-              "RelativeDocumentMoniker": "lib_services\\lib_services.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_services.csproj",
-              "RelativeToolTip": "lib_services\\lib_services.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
+              "RelativeDocumentMoniker": "lib_services\\lib_entities.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
+              "RelativeToolTip": "lib_services\\lib_entities.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-11-16T22:05:48.605Z",
