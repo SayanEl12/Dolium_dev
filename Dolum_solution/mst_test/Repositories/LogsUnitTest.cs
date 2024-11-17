@@ -25,6 +25,7 @@ public class LogsUnitTest
     {
         GetList();
         Save();
+        Search();
         Modify();
         Delete();
     }
@@ -44,6 +45,12 @@ public class LogsUnitTest
         };
         entity = iRepository!.Save(entity);
         Assert.IsTrue(entity.Id != 0);
+    }
+
+    public void Search()
+    {
+        var lista = iRepository!.Search(x => x.Id == entity!.Id);
+        Assert.IsTrue(lista.Count > 0);
     }
     private void Modify()
     {

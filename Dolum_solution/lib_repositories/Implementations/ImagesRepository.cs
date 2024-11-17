@@ -1,5 +1,6 @@
 ﻿using lib_entities;
 using lib_repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
 public class ImagesRepository : IImagesRepository
@@ -26,6 +27,11 @@ public class ImagesRepository : IImagesRepository
         _connection!.Save(entity);
         _connection!.Commit();
         return entity;
+    }
+
+    public List<Images> Search(Expression<Func<Images, bool>> conditions)
+    {
+        return _connection!.Search(conditions);
     }
 
     public Images Modify(Images entity)

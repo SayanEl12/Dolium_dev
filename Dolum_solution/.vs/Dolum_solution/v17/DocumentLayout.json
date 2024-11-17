@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\implementations\\sale_productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\implementations\\sale_productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\repositories\\imagesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\repositories\\imagesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\repositories\\sale_productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\repositories\\sale_productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\interfaces\\iimagesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\interfaces\\iimagesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\interfaces\\isale_productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\interfaces\\isale_productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\repositories\\logsunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\repositories\\logsunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\interfaces\\ilogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\interfaces\\ilogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\implementations\\imagesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\implementations\\imagesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\implementations\\logsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\implementations\\logsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sale_ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\Sale_ProductRepository.cs",
-              "RelativeDocumentMoniker": "lib_repositories\\Implementations\\Sale_ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\Sale_ProductRepository.cs",
-              "RelativeToolTip": "lib_repositories\\Implementations\\Sale_ProductRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ImagesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\ImagesRepository.cs",
+              "RelativeDocumentMoniker": "lib_repositories\\Implementations\\ImagesRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\ImagesRepository.cs",
+              "RelativeToolTip": "lib_repositories\\Implementations\\ImagesRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:33:19.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ISale_ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\ISale_ProductRepository.cs",
-              "RelativeDocumentMoniker": "lib_repositories\\Interfaces\\ISale_ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\ISale_ProductRepository.cs",
-              "RelativeToolTip": "lib_repositories\\Interfaces\\ISale_ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:33:16.657Z",
+              "WhenOpened": "2024-11-17T21:55:53.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Sale_ProductUnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\Sale_ProductUnitTest.cs",
-              "RelativeDocumentMoniker": "mst_test\\Repositories\\Sale_ProductUnitTest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\Sale_ProductUnitTest.cs",
-              "RelativeToolTip": "mst_test\\Repositories\\Sale_ProductUnitTest.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDMAAAAFAAAAAAAAAA==",
+              "Title": "IImagesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\IImagesRepository.cs",
+              "RelativeDocumentMoniker": "lib_repositories\\Interfaces\\IImagesRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\IImagesRepository.cs",
+              "RelativeToolTip": "lib_repositories\\Interfaces\\IImagesRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:32:47.895Z",
+              "WhenOpened": "2024-11-17T21:55:49.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImagesUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\ImagesUnitTest.cs",
+              "RelativeDocumentMoniker": "mst_test\\Repositories\\ImagesUnitTest.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\ImagesUnitTest.cs",
+              "RelativeToolTip": "mst_test\\Repositories\\ImagesUnitTest.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:55:47.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\LogsRepository.cs",
+              "RelativeDocumentMoniker": "lib_repositories\\Implementations\\LogsRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Implementations\\LogsRepository.cs",
+              "RelativeToolTip": "lib_repositories\\Implementations\\LogsRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:51:45.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILogsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\ILogsRepository.cs",
+              "RelativeDocumentMoniker": "lib_repositories\\Interfaces\\ILogsRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Interfaces\\ILogsRepository.cs",
+              "RelativeToolTip": "lib_repositories\\Interfaces\\ILogsRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:52:22.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogsUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\LogsUnitTest.cs",
+              "RelativeDocumentMoniker": "mst_test\\Repositories\\LogsUnitTest.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\LogsUnitTest.cs",
+              "RelativeToolTip": "mst_test\\Repositories\\LogsUnitTest.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:51:37.5Z",
               "EditorCaption": ""
             }
           ]
