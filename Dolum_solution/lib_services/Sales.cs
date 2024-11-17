@@ -1,16 +1,8 @@
-﻿using lib_services;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace lib_services
+namespace lib_entities
 {
-    internal class Sales
+    public class Sales
     {
         [Key] public int Id { get; set; }
         public int  FrKey_Customer { get; set; }

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lib_services
+namespace lib_entities
 {
-    internal class Qualities
+    public class Qualities
     {
         [Key] public int Id { get; set; }
         public string? Name { get; set; }

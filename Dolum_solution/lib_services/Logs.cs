@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace lib_services
+namespace lib_entities
 {
-    internal class Logs
+    public class Logs
     {
         public int FrKey_User { get; set; }
         public string? Description { get; set; }

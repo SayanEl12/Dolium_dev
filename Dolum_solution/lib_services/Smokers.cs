@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lib_services
+namespace lib_entities
 {
-    internal class Smokers
+    public class Smokers
     {
         [Key] public int Id { get; set; }
         public decimal Width { get; set; }
