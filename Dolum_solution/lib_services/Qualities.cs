@@ -11,6 +11,14 @@ namespace lib_entities
     {
         [Key] public int Id { get; set; }
         public string? Name { get; set; }
+
+        public bool Validate()
+        {
+            if (Name is null || Name.Trim().Length == 0)
+                return false;
+            return true;
+        }
+
     }
     
 }

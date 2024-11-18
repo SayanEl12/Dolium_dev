@@ -1,27 +1,26 @@
 using lib_entities;
 using lib_applications.Interfaces;
 using lib_repositories.Interfaces;
-using lib_repositories;
 using System.Linq.Expressions;
 
 namespace lib_applications.Implementations;
 public class SmokersApp : ISmokersApp
 {
-    private ISmokersRespository iRespository;
+    private ISmokersRepository _iRepository;
     
-    public SmokersApp(ISmokersRespository iRespository)
+    public SmokersApp(ISmokersRepository iRepository)
     {
-        this.iRespository = iRespository;
+        this._iRepository = iRepository;
     }
     
     public void Configure(string stringConnection)
     {
-        this.iRespository!.Configure(stringConnection);
+        this._iRepository!.Configure(stringConnection);
     }
     
     public List<Smokers> GetList()
     {
-        return this.iRespository!.GetList();
+        return this._iRepository!.GetList();
     }
 
     public Smokers Save(Smokers entity)
@@ -35,9 +34,8 @@ public class SmokersApp : ISmokersApp
         {
             throw new Exception("lbWrongData");
         }
-        return this.iRespository!.Save(entity);
+        return this._iRepository!.Save(entity);
     }
-
     public List<Smokers> Search(Smokers entity, string type)
     {
         Expression<Func<Smokers, bool>>? conditions = null;
@@ -52,9 +50,8 @@ public class SmokersApp : ISmokersApp
             default: conditions = x => x.Id == entity.Id; break;
         }
 
-        return this.iRespository!.Search(conditions);
+        return this._iRepository!.Search(conditions);
     }
-    
     public Smokers Modify(Smokers entity)
     {
         if (entity == null)
@@ -66,9 +63,8 @@ public class SmokersApp : ISmokersApp
         {
             throw new Exception("lbWrongData");
         }
-        return this.iRespository!.Modify(entity);
+        return this._iRepository!.Modify(entity);
     }
-    
     public Smokers Delete(Smokers entity)
     {
         if (entity == null)
@@ -80,6 +76,6 @@ public class SmokersApp : ISmokersApp
         {
             throw new Exception("lbWrongData");
         }
-        return this.iRespository!.Delete(entity);
+        return this._iRepository!.Delete(entity);
     }
 }

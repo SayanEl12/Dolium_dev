@@ -3,7 +3,7 @@ using lib_repositories.Interfaces;
 using System.Linq.Expressions;
 
 namespace lib_repositories.Implementations;
-public class SmokersRepository : ISmokersRespository
+public class SmokersRepository : ISmokersRepository
 {
     private Connection? _connection;
 

@@ -2,7 +2,7 @@ using lib_entities;
 using System.Linq.Expressions;
 
 namespace lib_repositories.Interfaces;
-public interface ISmokersRespository
+public interface ISmokersRepository
 {
     void Configure(string stringConnection);
     List<Smokers> GetList();

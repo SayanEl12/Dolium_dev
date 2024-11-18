@@ -11,7 +11,7 @@ namespace mst_test.Repositories;
 [TestClass]
 public class SmokersUnitTest
 {
-    private ISmokersRespository? iRepository = null;
+    private ISmokersRepository? iRepository = null;
     private Smokers? entity = null;
     public SmokersUnitTest()
     {
