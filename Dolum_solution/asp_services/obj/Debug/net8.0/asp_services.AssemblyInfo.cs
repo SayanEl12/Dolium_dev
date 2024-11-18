@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("lib_applications")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("asp_services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f135ef51e20d460d135aaf2e7c8bea741d68cab7")]
-[assembly: System.Reflection.AssemblyProductAttribute("lib_applications")]
-[assembly: System.Reflection.AssemblyTitleAttribute("lib_applications")]
+[assembly: System.Reflection.AssemblyProductAttribute("asp_services")]
+[assembly: System.Reflection.AssemblyTitleAttribute("asp_services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
