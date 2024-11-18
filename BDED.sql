@@ -156,8 +156,6 @@ INSERT INTO Sales (FrKey_Customer, FrKey_Seller, Date, Value, Address) VALUES
 (11, 12, '2024-10-13', 900000.00, 'Calle 321, Medell�n'),  -- Cliente con Id 11, Vendedor con Id 12
 (14, 15, '2024-10-14', 960000.00, 'Avenida 101, Medell�n'); -- Cliente con Id 14, Vendedor con Id 15
 GO
---SELECT * FROM Sales
-
 
 CREATE VIEW V_Sales AS
 SELECT 

@@ -23,8 +23,8 @@ public class LogsUnitTest
     [TestMethod]
     public void Ejecutar()
     {
-        GetList();
         Save();
+        GetList();
         Search();
         Modify();
         Delete();

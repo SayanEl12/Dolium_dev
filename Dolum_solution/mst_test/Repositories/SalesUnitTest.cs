@@ -22,8 +22,8 @@ public class SalesUnitTest
     [TestMethod]
     public void Ejecutar()
     {
-        GetList();
         Save();
+        GetList();
         Modify();
         Search();
         Delete();

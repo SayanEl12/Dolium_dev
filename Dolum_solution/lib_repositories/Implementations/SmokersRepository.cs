@@ -21,27 +21,22 @@ public class SmokersRepository : ISmokersRespository
     {
         return this._connection!.GetList<Smokers>();
     }
-
     public Smokers Save(Smokers entity)
     {
         _connection!.Save(entity);
         _connection!.Commit();
         return entity;
     }
-
     public List<Smokers> Search(Expression<Func<Smokers,bool>> conditions)
     {
         return _connection!.Search(conditions);
     }
-    
-
     public Smokers Modify(Smokers entity)
     {
         _connection!.Modify(entity);
         _connection!.Commit();
         return entity;
     }
-
     public Smokers Delete(Smokers entity)
     {
         _connection!.Delete(entity);

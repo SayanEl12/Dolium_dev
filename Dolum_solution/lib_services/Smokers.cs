@@ -17,6 +17,19 @@ namespace lib_entities
         public decimal Price_ref { get; set; }
         public string? Detail { get; set; }
         public int Stock { get; set; }
+
+        public bool Validate()
+        {
+            if (Width > 50.0m || Height > 120.0m)
+                return false;
+            if (Price_ref <= 0)
+                return false;
+            if (Detail.Length >= 255)
+                return false;
+            if (Stock <= 0)
+                return false;
+            return true;
+        }
     }
 }
 

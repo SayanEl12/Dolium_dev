@@ -22,8 +22,8 @@ public class QualitiesUnitTest
     [TestMethod]
     public void Ejecutar()
     {
-        GetList();
         Save();
+        GetList();
         Search();
         Modify();
         Delete();

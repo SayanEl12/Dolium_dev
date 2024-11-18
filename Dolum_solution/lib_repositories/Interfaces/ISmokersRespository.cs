@@ -8,7 +8,6 @@ public interface ISmokersRespository
     List<Smokers> GetList();
     Smokers Save(Smokers entity);
     List<Smokers> Search(Expression<Func<Smokers, bool>> conditions);
-
     Smokers Modify(Smokers entity);
     Smokers Delete(Smokers entity);
 }
