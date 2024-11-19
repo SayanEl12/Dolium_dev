@@ -3,108 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\interfaces\\iusersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\interfaces\\iusersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\implementations\\usersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\implementations\\usersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_utilities\\jsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|solutionrelative:lib_utilities\\jsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\smokerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\smokerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\sale_productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\sale_productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\smokers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\smokers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_utilities\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|solutionrelative:lib_utilities\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_repositories\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21FA6B3C-A24A-400E-BCA3-18664629F3D6}|lib_repositories\\lib_repositories.csproj|solutionrelative:lib_repositories\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}|asp_services\\asp_services.csproj|solutionrelative:asp_services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\implementations\\salesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\implementations\\salesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_utilities\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|solutionrelative:lib_utilities\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\repositories\\usersunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\repositories\\usersunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\interfaces\\iimagesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\interfaces\\iimagesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\implementations\\imagesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\implementations\\imagesapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\implementations\\logsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\implementations\\logsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\interfaces\\ilogsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\interfaces\\ilogsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,333 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\UsersApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Implementations\\UsersApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\UsersApp.cs",
-              "RelativeToolTip": "lib_applications\\Implementations\\UsersApp.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:23:15.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sale_ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\Sale_ProductController.cs",
-              "RelativeDocumentMoniker": "asp_services\\Controllers\\Sale_ProductController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\Sale_ProductController.cs",
-              "RelativeToolTip": "asp_services\\Controllers\\Sale_ProductController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:41:08.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "asp_services\\Controllers\\ImagesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "asp_services\\Controllers\\ImagesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:43:01.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\SalesController.cs",
-              "RelativeDocumentMoniker": "asp_services\\Controllers\\SalesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\SalesController.cs",
-              "RelativeToolTip": "asp_services\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:40:01.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IUsersApp.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\IUsersApp.cs",
+              "RelativeDocumentMoniker": "lib_applications\\Interfaces\\IUsersApp.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\IUsersApp.cs",
+              "RelativeToolTip": "lib_applications\\Interfaces\\IUsersApp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:18:27.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "asp_services\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\UsersController.cs",
               "RelativeToolTip": "asp_services\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:37:45.488Z",
+              "WhenOpened": "2024-11-19T15:36:11.73Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SmokersController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\SmokersController.cs",
-              "RelativeDocumentMoniker": "asp_services\\Controllers\\SmokersController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\SmokersController.cs",
-              "RelativeToolTip": "asp_services\\Controllers\\SmokersController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:36:50.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JsonConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\JsonConverter.cs",
-              "RelativeDocumentMoniker": "lib_utilities\\JsonConverter.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\JsonConverter.cs",
-              "RelativeToolTip": "lib_utilities\\JsonConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:34:59.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Smokers.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Smokers.cs",
-              "RelativeDocumentMoniker": "lib_services\\Smokers.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Smokers.cs",
-              "RelativeToolTip": "lib_services\\Smokers.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAawBoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T12:59:41.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Sales.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Sales.cs",
-              "RelativeDocumentMoniker": "lib_services\\Sales.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Sales.cs",
-              "RelativeToolTip": "lib_services\\Sales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:35:01.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "asp_services\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Properties\\launchSettings.json",
-              "RelativeToolTip": "asp_services\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T13:35:19.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Program.cs",
-              "RelativeDocumentMoniker": "asp_services\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Program.cs",
-              "RelativeToolTip": "asp_services\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T12:23:43.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Connection.cs",
-              "RelativeDocumentMoniker": "lib_repositories\\Connection.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\Connection.cs",
-              "RelativeToolTip": "lib_repositories\\Connection.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:44:40.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Users.cs",
-              "RelativeDocumentMoniker": "lib_services\\Users.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Users.cs",
-              "RelativeToolTip": "lib_services\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:30:07.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GeneralData.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\GeneralData.cs",
-              "RelativeDocumentMoniker": "lib_utilities\\GeneralData.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\GeneralData.cs",
-              "RelativeToolTip": "lib_utilities\\GeneralData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:02:33.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LogsController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\LogsController.cs",
-              "RelativeDocumentMoniker": "asp_services\\Controllers\\LogsController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\LogsController.cs",
-              "RelativeToolTip": "asp_services\\Controllers\\LogsController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAuwIwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:42:14.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_services\\Startup.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Startup.cs",
-              "RelativeToolTip": "asp_services\\Startup.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:18:31.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SalesApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\SalesApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Implementations\\SalesApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\SalesApp.cs",
-              "RelativeToolTip": "lib_applications\\Implementations\\SalesApp.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:37:45.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Images.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Images.cs",
-              "RelativeDocumentMoniker": "lib_services\\Images.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Images.cs",
-              "RelativeToolTip": "lib_services\\Images.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:42.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\secrets.json",
-              "RelativeDocumentMoniker": "lib_utilities\\secrets.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\secrets.json",
-              "RelativeToolTip": "lib_utilities\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T02:47:00.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Core\\Configuration.cs",
-              "RelativeDocumentMoniker": "mst_test\\Core\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Core\\Configuration.cs",
-              "RelativeToolTip": "mst_test\\Core\\Configuration.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:48:35.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UsersUnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\UsersUnitTest.cs",
-              "RelativeDocumentMoniker": "mst_test\\Repositories\\UsersUnitTest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Repositories\\UsersUnitTest.cs",
-              "RelativeToolTip": "mst_test\\Repositories\\UsersUnitTest.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:13:34.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IImagesApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\IImagesApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Interfaces\\IImagesApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\IImagesApp.cs",
-              "RelativeToolTip": "lib_applications\\Interfaces\\IImagesApp.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:47.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ImagesApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\ImagesApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Implementations\\ImagesApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\ImagesApp.cs",
-              "RelativeToolTip": "lib_applications\\Implementations\\ImagesApp.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwCkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:45.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LogsApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\LogsApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Implementations\\LogsApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\LogsApp.cs",
-              "RelativeToolTip": "lib_applications\\Implementations\\LogsApp.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:05.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ILogsApp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\ILogsApp.cs",
-              "RelativeDocumentMoniker": "lib_applications\\Interfaces\\ILogsApp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\ILogsApp.cs",
-              "RelativeToolTip": "lib_applications\\Interfaces\\ILogsApp.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:06.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Logs.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Logs.cs",
-              "RelativeDocumentMoniker": "lib_services\\Logs.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\Logs.cs",
-              "RelativeToolTip": "lib_services\\Logs.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:02.508Z"
             }
           ]
         }
