@@ -1,7 +1,7 @@
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace lib_utilidades
+namespace lib_utilities
 {
     public class JsonConverter
     {

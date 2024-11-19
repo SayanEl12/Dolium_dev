@@ -23,7 +23,7 @@ public class Sale_ProductController : ControllerBase
             var data = new StreamReader(Request.Body).ReadToEnd().ToString();
             if (string.IsNullOrEmpty(data))
                 data = "{}";
-            return lib_utilidades.JsonConverter.ConvertToObject(data);
+            return lib_utilities.JsonConverter.ConvertToObject(data);
         }
         catch (Exception ex)
         {
@@ -55,7 +55,7 @@ public class Sale_ProductController : ControllerBase
         {
             answer["Error"] = ex.Message.ToString();
         }
-        return lib_utilidades.JsonConverter.ConvertToString(answer);
+        return lib_utilities.JsonConverter.ConvertToString(answer);
     }
     [HttpPost]
     public string Save()
@@ -69,8 +69,8 @@ public class Sale_ProductController : ControllerBase
                 respuesta["Error"] = "lbNoAutenticacion";
                 return JsonConversor.ConvertirAString(respuesta);
             }*/
-            var entity = lib_utilidades.JsonConverter.ConvertToObject<Sale_Product>(
-                lib_utilidades.JsonConverter.ConvertToString(data["Entity"]));
+            var entity = lib_utilities.JsonConverter.ConvertToObject<Sale_Product>(
+                lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
 
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
             answer["Entities"] = this.IApp!.Save(entity);
@@ -82,7 +82,7 @@ public class Sale_ProductController : ControllerBase
         {
             answer["Error"] = ex.Message.ToString();
         }
-        return lib_utilidades.JsonConverter.ConvertToString(answer);
+        return lib_utilities.JsonConverter.ConvertToString(answer);
     }
     [HttpPost]
     public string Modify()
@@ -96,8 +96,8 @@ public class Sale_ProductController : ControllerBase
                 answer["Error"] = "lbNoAutenticacion";
                 return JsonConversor.ConvertirAString(answer);
             }*/
-            var entity = lib_utilidades.JsonConverter.ConvertToObject<Sale_Product>(
-                lib_utilidades.JsonConverter.ConvertToString(data["Entity"]));
+            var entity = lib_utilities.JsonConverter.ConvertToObject<Sale_Product>(
+                lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
 
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
             answer["Entities"] = this.IApp!.Modify(entity);
@@ -109,7 +109,7 @@ public class Sale_ProductController : ControllerBase
         {
             answer["Error"] = ex.Message.ToString();
         }
-        return lib_utilidades.JsonConverter.ConvertToString(answer);
+        return lib_utilities.JsonConverter.ConvertToString(answer);
     }
     [HttpPost]
     public string Delete()
@@ -123,8 +123,8 @@ public class Sale_ProductController : ControllerBase
                 answer["Error"] = "lbNoAutenticacion";
                 return JsonConversor.ConvertirAString(answer);
             }*/
-            var entity = lib_utilidades.JsonConverter.ConvertToObject<Sale_Product>(
-                lib_utilidades.JsonConverter.ConvertToString(data["Entity"]));
+            var entity = lib_utilities.JsonConverter.ConvertToObject<Sale_Product>(
+                lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
 
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
             answer["Entities"] = this.IApp!.Delete(entity);
@@ -136,6 +136,6 @@ public class Sale_ProductController : ControllerBase
         {
             answer["Error"] = ex.Message.ToString();
         }
-        return lib_utilidades.JsonConverter.ConvertToString(answer);
+        return lib_utilities.JsonConverter.ConvertToString(answer);
     }
 }

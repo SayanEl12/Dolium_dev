@@ -16,7 +16,7 @@ public class Configuration
     public static void Load()
     {
         data = new Dictionary<string, string>();
-        StreamReader jsonStream = File.OpenText(GeneralData.json_path);
+        StreamReader jsonStream = File.OpenText("../../../../lib_utilities/secrets.json");
         var json = jsonStream.ReadToEnd();
         var temp = JsonConvert.DeserializeObject<Dictionary<string, string>>(json)!;
         foreach (var elemet in temp)
