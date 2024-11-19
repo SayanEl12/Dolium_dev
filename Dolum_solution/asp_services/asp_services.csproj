@@ -11,7 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\lib_applications\lib_applications.csproj" />
+    <ProjectReference Include="..\lib_repositories\lib_repositories.csproj" />
+    <ProjectReference Include="..\lib_services\lib_entities.csproj" />
+    <ProjectReference Include="..\lib_utilities\lib_utilities.csproj" />
   </ItemGroup>
 
 </Project>

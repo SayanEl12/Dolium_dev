@@ -7,7 +7,6 @@ namespace lib_applications.Implementations;
 public class QualitiesApp :IQualitiesApp
 {
     private IQualitiesRepository iRespository;
-    
     public QualitiesApp(IQualitiesRepository iRespository)
     {
         this.iRespository = iRespository;
