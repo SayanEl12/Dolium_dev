@@ -35,7 +35,8 @@ public class UsersApp : IUsersApp
         {
             throw new Exception("lbWrongData");
         }
-        return this.iRespository!.Save(entity);
+        entity = this.iRespository!.Save(entity);
+        return entity;
     }
 
     public List<Users> Search(Users entity, string type)
