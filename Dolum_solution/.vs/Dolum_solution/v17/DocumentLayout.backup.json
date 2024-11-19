@@ -46,8 +46,7 @@
               "RelativeToolTip": "lib_applications\\Interfaces\\IImagesApp.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:47.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:21:47.631Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "lib_applications\\Implementations\\ImagesApp.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Implementations\\ImagesApp.cs",
               "RelativeToolTip": "lib_applications\\Implementations\\ImagesApp.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T17:21:45.213Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "lib_services\\Images.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:42.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:21:42.669Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "lib_applications\\Implementations\\LogsApp.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAwwFEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:05.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:10:05.008Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "lib_applications\\Interfaces\\ILogsApp.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAIwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:06.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:10:06.448Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "lib_services\\Logs.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:10:02.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:10:02.508Z"
             }
           ]
         }
