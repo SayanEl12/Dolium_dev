@@ -59,7 +59,7 @@ public class UsersApp : IUsersApp
     {
         if (entity == null)
             throw new Exception("lbNullEntity");
-        if (entity.Id != 0)
+        if (entity.Id == 0)
             throw new Exception("lbIdIsntZero");
 
         if (!entity.Validate())
@@ -73,7 +73,7 @@ public class UsersApp : IUsersApp
     {
         if (entity == null)
             throw new Exception("lbNullEntity");
-        if (entity.Id != 0)
+        if (entity.Id == 0)
             throw new Exception("lbIdIsntZero");
 
         if (!entity.Validate())
