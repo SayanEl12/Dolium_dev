@@ -2901,6 +2901,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "lib_entities >= 1.0.0",
+      "lib_lenguages >= 1.0.0",
       "lib_utilities >= 1.0.0"
     ]
   },
@@ -2930,8 +2931,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/lib_entities.csproj": {
               "projectPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/lib_entities.csproj"
+=======
+            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\lib_lenguages.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\lib_lenguages.csproj"
+            },
+            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj"
+>>>>>>> 5cc1e8c56034c021ae8a7546192bb19c0ae4ea82
             },
             "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_utilities/lib_utilities.csproj": {
               "projectPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_utilities/lib_utilities.csproj"

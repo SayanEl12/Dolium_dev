@@ -7,10 +7,23 @@
     </PropertyGroup>
 
     <ItemGroup>
+<<<<<<< HEAD
+=======
+      <Compile Update="RsErrors.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsErrors.resx</DependentUpon>
+      </Compile>
+>>>>>>> 5cc1e8c56034c021ae8a7546192bb19c0ae4ea82
       <Compile Update="RsImages.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>RsImages.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsMenu.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsMenu.resx</DependentUpon>
       </Compile>
       <Compile Update="RsSales.Designer.cs">
         <DesignTime>True</DesignTime>
@@ -30,9 +43,20 @@
     </ItemGroup>
 
     <ItemGroup>
+<<<<<<< HEAD
+=======
+      <EmbeddedResource Update="RsErrors.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsErrors.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+>>>>>>> 5cc1e8c56034c021ae8a7546192bb19c0ae4ea82
       <EmbeddedResource Update="RsImages.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>RsImages.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsMenu.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsMenu.Designer.cs</LastGenOutput>
       </EmbeddedResource>
       <EmbeddedResource Update="RsSales.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>

@@ -16,7 +16,7 @@ public class Comunications
 
     public Dictionary<string, object> BuildUrl(Dictionary<string, object> data, string Method)
     {
-        data["Url"] = Protocol + Host + "/" + Service + Name + "/" + Method;
+        data["Url"] = Protocol + Host + "/" + Name + "/" + Method;
         data["UrlToken"] = Protocol + Host + "/" + Service + "Token/Authenticate" + Name;
         return data;
     }
