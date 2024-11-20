@@ -9,6 +9,7 @@
       "asp_services/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "6.4.0",
           "lib_applications": "1.0.0",
           "lib_entities": "1.0.0",
