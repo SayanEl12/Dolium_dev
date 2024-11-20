@@ -17,12 +17,10 @@ public class SmokersApp : ISmokersApp
     {
         this._iRepository!.Configure(stringConnection);
     }
-    
     public List<Smokers> GetList()
     {
         return this._iRepository!.GetList();
     }
-
     public Smokers Save(Smokers entity)
     {
         if (entity == null)

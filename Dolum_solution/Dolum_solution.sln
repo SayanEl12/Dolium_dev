@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_comunications", "lib_co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentations", "lib_presentations\lib_presentations.csproj", "{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_presentations", "asp_presentations\asp_presentations.csproj", "{4E947346-ADCC-45DC-9374-0A98BE87994D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_lenguages", "lib_lenguages\lib_lenguages.csproj", "{BC0917AE-1ED6-417D-910F-CFF23B0965F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E947346-ADCC-45DC-9374-0A98BE87994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E947346-ADCC-45DC-9374-0A98BE87994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E947346-ADCC-45DC-9374-0A98BE87994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E947346-ADCC-45DC-9374-0A98BE87994D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0917AE-1ED6-417D-910F-CFF23B0965F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0917AE-1ED6-417D-910F-CFF23B0965F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0917AE-1ED6-417D-910F-CFF23B0965F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0917AE-1ED6-417D-910F-CFF23B0965F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +87,7 @@ Global
 		{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B} = {71D74830-7410-412D-AB66-92DAA16EFB84}
 		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567} = {F2BB95C6-1414-4891-809C-8897423C4490}
 		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4} = {F2BB95C6-1414-4891-809C-8897423C4490}
+		{4E947346-ADCC-45DC-9374-0A98BE87994D} = {F2BB95C6-1414-4891-809C-8897423C4490}
+		{BC0917AE-1ED6-417D-910F-CFF23B0965F8} = {F2BB95C6-1414-4891-809C-8897423C4490}
 	EndGlobalSection
 EndGlobal
