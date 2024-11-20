@@ -7,13 +7,36 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Update="RsErrors.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsErrors.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsMenu.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsMenu.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="RsErrors.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsErrors.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsImages.es-419.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+      </EmbeddedResource>
       <EmbeddedResource Update="RsImages.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>RsImages.Designer.cs</LastGenOutput>
       </EmbeddedResource>
       <EmbeddedResource Update="RsMenu.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
+        <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>RsMenu.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsSales.es-419.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
       </EmbeddedResource>
       <EmbeddedResource Update="RsSales.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
@@ -22,6 +45,9 @@
       <EmbeddedResource Update="RsSmokers.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>RsSmokers.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsUsers.es-419.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
       </EmbeddedResource>
       <EmbeddedResource Update="RsUsers.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>

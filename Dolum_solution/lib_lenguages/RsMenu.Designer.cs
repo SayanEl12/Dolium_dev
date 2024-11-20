@@ -22,7 +22,7 @@ namespace lib_lenguages {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class RsMenu {
+    public class RsMenu {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace lib_lenguages {
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("lib_lenguages.RsMenu", typeof(RsMenu).Assembly);
@@ -51,7 +51,7 @@ namespace lib_lenguages {
         ///   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Clean.
         /// </summary>
-        internal static string lbClean {
+        public static string lbClean {
             get {
                 return ResourceManager.GetString("lbClean", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Close.
         /// </summary>
-        internal static string lbClose {
+        public static string lbClose {
             get {
                 return ResourceManager.GetString("lbClose", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Delete.
         /// </summary>
-        internal static string lbDelete {
+        public static string lbDelete {
             get {
                 return ResourceManager.GetString("lbDelete", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a ¿Deseas Borrar Informacion?.
         /// </summary>
-        internal static string lbDeleteEntity {
+        public static string lbDeleteEntity {
             get {
                 return ResourceManager.GetString("lbDeleteEntity", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Enter.
         /// </summary>
-        internal static string lbEnter {
+        public static string lbEnter {
             get {
                 return ResourceManager.GetString("lbEnter", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Message.
         /// </summary>
-        internal static string lbMessage {
+        public static string lbMessage {
             get {
                 return ResourceManager.GetString("lbMessage", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Modify.
         /// </summary>
-        internal static string lbModify {
+        public static string lbModify {
             get {
                 return ResourceManager.GetString("lbModify", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a New.
         /// </summary>
-        internal static string lbNew {
+        public static string lbNew {
             get {
                 return ResourceManager.GetString("lbNew", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Refresh.
         /// </summary>
-        internal static string lbRefresh {
+        public static string lbRefresh {
             get {
                 return ResourceManager.GetString("lbRefresh", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Save.
         /// </summary>
-        internal static string lbSave {
+        public static string lbSave {
             get {
                 return ResourceManager.GetString("lbSave", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Select.
         /// </summary>
-        internal static string lbSelect {
+        public static string lbSelect {
             get {
                 return ResourceManager.GetString("lbSelect", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a Users.
         /// </summary>
-        internal static string lbUsers {
+        public static string lbUsers {
             get {
                 return ResourceManager.GetString("lbUsers", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace lib_lenguages {
         /// <summary>
         ///   Busca una cadena traducida similar a .
         /// </summary>
-        internal static string String1 {
+        public static string String1 {
             get {
                 return ResourceManager.GetString("String1", resourceCulture);
             }

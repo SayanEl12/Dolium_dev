@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9m2EDzTH76g=",
+  "dgSpecHash": "GBZEs6jQi3k=",
   "success": true,
-  "projectFilePath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_utilities/lib_utilities.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\lib_utilities.csproj",
   "expectedPackageFiles": [
-    "/home/santiago-herrera/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
