@@ -3,9 +3,9 @@
 namespace lib_presentations.Interfaces;
 public interface ISalesPresentation
 {
-    Task<List<Smokers>> GetList();
-    Task<List<Smokers>> Search(Smokers entity, string type);
-    Task<Smokers> Save(Smokers entity);
-    Task<Smokers> Modify(Smokers entity);
-    Task<Smokers> Delete(Smokers entity);
+    Task<List<Sales>> GetList();
+    Task<List<Sales>> Search(Sales entity, string type);
+    Task<Sales> Save(Sales entity);
+    Task<Sales> Modify(Sales entity);
+    Task<Sales> Delete(Sales entity);
 }
