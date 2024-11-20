@@ -18,17 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations
 build_property._RazorSourceGeneratorDebug = 
 
-<<<<<<< HEAD
-[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
-=======
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Messages.cshtml]
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Messages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TWVzc2FnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
->>>>>>> 5cc1e8c56034c021ae8a7546192bb19c0ae4ea82
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Index.cshtml]
@@ -51,32 +46,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Images.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9JbWFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Sales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9TYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Smokers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9TbW9rZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9Vc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oz5nui264m
-=======
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Windows/Images.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93c1xJbWFnZXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Windows/Sales.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93c1xTYWxlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Windows/Smokers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93c1xTbW9rZXJzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Windows/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93c1xVc2Vycy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/asp_presentations/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-th48a7g7um
->>>>>>> 5cc1e8c56034c021ae8a7546192bb19c0ae4ea82

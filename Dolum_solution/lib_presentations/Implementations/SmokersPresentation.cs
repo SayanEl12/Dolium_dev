@@ -5,7 +5,7 @@ using lib_comunications;
 using lib_utilities;
 
 namespace lib_presentations.Implementations;
-public class SmokersPresentation
+public class SmokersPresentation : ISmokersPresentation
 {
     private ISmokersComunication? iComunication = null;
     public SmokersPresentation(ISmokersComunication iComunication)
@@ -70,6 +70,24 @@ public class SmokersPresentation
         data["Entity"] = entity;
         
         var answer = await iComunication!.Delete(data);
+        if (answer.ContainsKey("Error"))
+        {
+            throw new Exception(answer["Error"].ToString()!);
+        }
+        entity = JsonConverter.ConvertToObject<Smokers>(
+            JsonConverter.ConvertToString(answer["Entities"]));
+        return entity;
+    }
+    public async Task<Smokers> Modify(Smokers entity)
+    {
+        if (entity.Id == 0 || !entity.Validate())
+        {
+            throw new Exception("lbWrongData");
+        }
+        var data = new Dictionary<string, object>();
+        data["Entity"] = entity;
+
+        var answer = await iComunication!.Modify(data);
         if (answer.ContainsKey("Error"))
         {
             throw new Exception(answer["Error"].ToString()!);
