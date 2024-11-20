@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\smokersunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\smokersunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\usersunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\usersunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\imagesunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\imagesunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\salesunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\salesunitaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\windows\\images.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\windows\\images.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\windows\\sales.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\windows\\sales.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\windows\\smokers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\windows\\smokers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\windows\\images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\windows\\images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{BC0917AE-1ED6-417D-910F-CFF23B0965F8}|lib_lenguages\\lib_lenguages.csproj|solutionrelative:lib_lenguages\\rsmenu.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\asp_presentations\\windows\\smokers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E947346-ADCC-45DC-9374-0A98BE87994D}|asp_presentations\\asp_presentations.csproj|solutionrelative:asp_presentations\\windows\\smokers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_utilities\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|solutionrelative:lib_utilities\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC0917AE-1ED6-417D-910F-CFF23B0965F8}|lib_lenguages\\lib_lenguages.csproj|C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\rserrors.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{BC0917AE-1ED6-417D-910F-CFF23B0965F8}|lib_lenguages\\lib_lenguages.csproj|solutionrelative:lib_lenguages\\rserrors.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\implementations\\userscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +90,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersUnitaries.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitaries.cs",
+              "RelativeDocumentMoniker": "mst_test\\Comunications\\UsersUnitaries.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitaries.cs",
+              "RelativeToolTip": "mst_test\\Comunications\\UsersUnitaries.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:18:13.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImagesUnitaries.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\ImagesUnitaries.cs",
+              "RelativeDocumentMoniker": "mst_test\\Comunications\\ImagesUnitaries.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\ImagesUnitaries.cs",
+              "RelativeToolTip": "mst_test\\Comunications\\ImagesUnitaries.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:14:51.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesUnitaries.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\SalesUnitaries.cs",
+              "RelativeDocumentMoniker": "mst_test\\Comunications\\SalesUnitaries.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\SalesUnitaries.cs",
+              "RelativeToolTip": "mst_test\\Comunications\\SalesUnitaries.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:14:31.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SmokersUnitaries.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\SmokersUnitaries.cs",
+              "RelativeDocumentMoniker": "mst_test\\Comunications\\SmokersUnitaries.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\SmokersUnitaries.cs",
+              "RelativeToolTip": "mst_test\\Comunications\\SmokersUnitaries.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:13:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Messages.cshtml",
+              "RelativeDocumentMoniker": "asp_presentations\\Messages.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Messages.cshtml",
+              "RelativeToolTip": "asp_presentations\\Messages.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T20:06:14.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Images.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Images.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentations\\Windows\\Images.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Images.cshtml.cs",
+              "RelativeToolTip": "asp_presentations\\Windows\\Images.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:04:24.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sales.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Sales.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentations\\Windows\\Sales.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Sales.cshtml.cs",
+              "RelativeToolTip": "asp_presentations\\Windows\\Sales.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:04:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Images.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Images.cshtml",
               "RelativeDocumentMoniker": "asp_presentations\\Windows\\Images.cshtml",
@@ -83,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Sales.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Sales.cshtml",
               "RelativeDocumentMoniker": "asp_presentations\\Windows\\Sales.cshtml",
@@ -96,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Smokers.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Smokers.cshtml",
               "RelativeDocumentMoniker": "asp_presentations\\Windows\\Smokers.cshtml",
@@ -109,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Startup.cs",
               "RelativeDocumentMoniker": "asp_presentations\\Startup.cs",
@@ -125,12 +240,25 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Smokers.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Smokers.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentations\\Windows\\Smokers.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Smokers.cshtml.cs",
+              "RelativeToolTip": "asp_presentations\\Windows\\Smokers.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:52:11.296Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "RsSales.resx",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\RsSales.resx",
               "RelativeDocumentMoniker": "lib_lenguages\\RsSales.resx",
@@ -142,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "RsMenu.resx",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\RsMenu.resx",
               "RelativeDocumentMoniker": "lib_lenguages\\RsMenu.resx",
@@ -153,19 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Smokers.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Smokers.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentations\\Windows\\Smokers.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Smokers.cshtml.cs",
-              "RelativeToolTip": "asp_presentations\\Windows\\Smokers.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:52:11.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Enumerables.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\Enumerables.cs",
               "RelativeDocumentMoniker": "lib_utilities\\Enumerables.cs",
@@ -177,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "LogConverter.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\LogConverter.cs",
               "RelativeDocumentMoniker": "lib_utilities\\LogConverter.cs",
@@ -189,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_presentations\\Windows\\Users.cshtml",
               "RelativeDocumentMoniker": "asp_presentations\\Windows\\Users.cshtml",
@@ -201,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "RsErrors.resx",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\RsErrors.resx",
               "RelativeDocumentMoniker": "lib_lenguages\\RsErrors.resx",
@@ -212,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "UsersComunication.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\UsersComunication.cs",
               "RelativeDocumentMoniker": "lib_comunications\\Implementations\\UsersComunication.cs",
@@ -224,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Comunications.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Comunications.cs",
               "RelativeDocumentMoniker": "lib_comunications\\Comunications.cs",
@@ -233,18 +349,6 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAQwDgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:46:42.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersUnitarias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
-              "RelativeDocumentMoniker": "mst_test\\Comunications\\UsersUnitarias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
-              "RelativeToolTip": "mst_test\\Comunications\\UsersUnitarias.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:02:47.927Z"
             }
           ]
         }
