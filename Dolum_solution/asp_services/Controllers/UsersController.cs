@@ -9,10 +9,12 @@ namespace asp_services.Controllers;
 public class UsersController : ControllerBase
 {
     private IUsersApp? IApp = null;
-
-    public UsersController(IUsersApp? IApp)
+    private ISalesApp? ISalesApp = null;
+    private ILogsApp? ILogsApp = null;
+    public UsersController(IUsersApp? IApp, ISalesApp? ISalesApp)
     {
         this.IApp = IApp;
+        this.ISalesApp = ISalesApp;
     }
 
     private Dictionary<string, object> GetData()
@@ -118,15 +120,33 @@ public class UsersController : ControllerBase
         try
         {
             var data = GetData();
-            /*if (!tokenController!.Validate(data))
+
+            ICollection<string> keys = data.Keys;
+            
+            foreach (string key in keys)
             {
-                answer["Error"] = "lbNoAutenticacion";
-                return JsonConversor.ConvertirAString(answer);
-            }*/
+                Console.WriteLine(key);
+                var i = key;
+                Console.WriteLine(data[key]);
+                Console.WriteLine(i);
+            }
             var entity = lib_utilities.JsonConverter.ConvertToObject<Users>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
 
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
+            this.ISalesApp!.Configure(Configuration.GetValue("string_connection"));
+            this.ILogsApp!.Configure(Configuration.GetValue("string_connection"));
+            // Quality [2] = "Costumer"
+            // Quality [3] = "Seller"
+            if (entity.Quality == 2)
+            {
+                answer["Costumers_deleted"] = ISalesApp.DeleteCostumers(entity.Id);
+            }
+            else if (entity.Quality == 3)
+            {
+                answer["Sellers_deleted"] = ISalesApp.DeleteSellers(entity.Id);
+            }
+            answer["UsersLogs_deleted"] = ILogsApp.DeleteUsers(entity.Id);
             answer["Entities"] = this.IApp!.Delete(entity);
 
             answer["Answer"] = "OK";

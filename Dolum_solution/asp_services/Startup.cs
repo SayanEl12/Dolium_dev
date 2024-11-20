@@ -32,8 +32,6 @@ namespace asp_servicies
             services.AddScoped<ISale_ProductRepository, Sale_ProductRepository>();
             services.AddScoped<ILogsRepository, LogsRepository>();
             services.AddScoped<IImagesRepository, ImagesRepository>();
-
-
             // Aplicaciones
             services.AddScoped<ISmokersApp, SmokersApp>();
             services.AddScoped<ISalesApp, SalesApp>();
@@ -41,13 +39,8 @@ namespace asp_servicies
             services.AddScoped<ILogsApp, LogsApp>();
             services.AddScoped<IImagesApp, ImagesApp>();
             services.AddScoped<IUsersApp, UsersApp>();
-
-
-
-
             // Controladores
             //services.AddScoped<TokenController, TokenController>();
-
             services.AddCors(o => o.AddDefaultPolicy(b => b.AllowAnyOrigin()));
         }
 

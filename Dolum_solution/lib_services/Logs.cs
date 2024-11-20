@@ -12,18 +12,12 @@ namespace lib_entities
         public DateTime Date { get; set; }
         public bool Validate()
         {
-           
             if (FrKey_User <= 0)
                 return false;
-
-            
             if (string.IsNullOrWhiteSpace(Description) || Description.Length > 255)
                 return false;
-
-            
             if (Date > DateTime.Today)
                 return false;
-
             return true;
         }
     }

@@ -37,7 +37,6 @@ public class SalesUnitTest
     {
         entity = new Sales()
         {
-
             FrKey_Customer = 2,
             FrKey_Seller = 3,
             Date = DateTime.Now,

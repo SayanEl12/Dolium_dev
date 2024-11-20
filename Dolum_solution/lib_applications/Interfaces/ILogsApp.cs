@@ -13,4 +13,5 @@ public interface ILogsApp
     List<Logs> Search(Logs entity, string type);
     Logs Modify(Logs entity);
     Logs Delete(Logs entity);
+    public List<Logs> DeleteUsers(int Id);
 }

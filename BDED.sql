@@ -1,7 +1,9 @@
-﻿
+﻿USE Master
+GO
+drop database if exists Smokers;
+GO
 CREATE DATABASE Smokers;
 GO
-
 USE Smokers;
 GO
 
@@ -11,8 +13,8 @@ CREATE TABLE [Users] (
     [Name] VARCHAR(100) NOT NULL,
     [Email] VARCHAR(100) NOT NULL UNIQUE,
     [Quality] INT NOT NULL,
-		[Password] VARCHAR(100) NOT NULL,
-		[Register_date] DATE NOT NULL
+	[Password] VARCHAR(100) NOT NULL,
+	[Register_date] DATE NOT NULL
 	);
 	GO
 
@@ -82,46 +84,27 @@ GO
 INSERT INTO Qualities (Name) VALUES
 ('Admin'),
 ('Customer'),
-('Seller');
+('Seller'),
+('Anonimo')
 GO
-
---//SELECT * FROM Qualities
 
 -- Insercion de registros en la tabla 'Usuario' con valores manuales para 'Id'
 INSERT INTO [Users] (Name, Email, Quality, Password, Register_date) VALUES
-('Juan Perez', 'juan.perez@gmail.com', 1, 'admin123', '2024-01-01'),
-('Maria Gomez', 'maria.gomez@hotmail.com', 2, 'cliente123', '2024-02-01'),
-('Carlos Lopez', 'carlos.lopez@gmail.com', 3, 'vendedor123', '2024-03-01'),
-('Ana Martinez', 'ana.martinez@hotmail.com', 1, 'admin123', '2024-01-05'),
-('Luis Fernandez', 'luis.fernandez@gmail.com', 2, 'cliente123', '2024-02-10'),
-('Sofia Rodriguez', 'sofia.rodriguez@hotmail.com', 3, 'vendedor123', '2024-03-12'),
-('Pedro Sanchez', 'pedro.sanchez@gmail.com', 1, 'admin123', '2024-01-15'),
-('Laura Daz', 'laura.diaz@hotmail.com', 2, 'cliente123', '2024-02-20'),
-('Miguel Ruiz', 'miguel.ruiz@gmail.com', 3, 'vendedor123', '2024-03-25'),
-('Beatriz Gonzalez', 'beatriz.gonzalez@hotmail.com', 1, 'admin123', '2024-01-30'),
-('Jorge Perez', 'jorge.perez@gmail.com', 2, 'cliente123', '2024-02-25'),
-('Isabel Torres', 'isabel.torres@hotmail.com', 3, 'vendedor123', '2024-03-05'),
-('Ricardo Martinez', 'ricardo.martinez@gmail.com', 1, 'admin123', '2024-01-10'),
-('Elena Lopez', 'elena.lopez@hotmail.com', 2, 'cliente123', '2024-02-12'),
-('David Gonzalez', 'david.gonzalez@gmail.com', 3, 'vendedor123', '2024-03-15'),
-('Carmen Sanchez', 'carmen.sanchez@hotmail.com', 1, 'admin123', '2024-01-25'),
-('Ra�l Garcia', 'raul.garcia@gmail.com', 2, 'cliente123', '2024-02-28'),
-('Pilar Hernandez', 'pilar.hernandez@hotmail.com', 3, 'vendedor123', '2024-03-18'),
-('Andres Martin', 'andres.martin@gmail.com', 1, 'admin123', '2024-01-12'),
-('Marta Rodriguez', 'marta.rodriguez@hotmail.com', 2, 'cliente123', '2024-02-05'),
-('Alberto Perez', 'alberto.perez@gmail.com', 3, 'vendedor123', '2024-03-20'),
-('Patricia Fernandez', 'patricia.fernandez@hotmail.com', 1, 'admin123', '2024-01-18'),
-('Jose Luis Sanchez', 'jose.sanchez@gmail.com', 2, 'cliente123', '2024-02-18'),
-('Veronica Gonzalez', 'veronica.gonzalez@hotmail.com', 3, 'vendedor123', '2024-03-22'),
-('Fernando Perez', 'fernando.perez@gmail.com', 1, 'admin123', '2024-01-22'),
-('Raquel Diaz', 'raquel.diaz@hotmail.com', 2, 'cliente123', '2024-02-08'),
-('Manuel Ruiz', 'manuel.ruiz@gmail.com', 3, 'vendedor123', '2024-03-28'),
-('Antonio Sanchez', 'antonio.sanchez@hotmail.com', 1, 'admin123', '2024-01-28'),
-('Susi Torres', 'susi.torres@gmail.com', 2, 'cliente123', '2024-02-22'),
-('Juan Carlos Garcia', 'juancarlos.garcia@hotmail.com', 3, 'vendedor123', '2024-03-30');
+('NN', 'N@N', 3, 'NN', '2000-01-01 00:00:00'),
+('PEPE_CLIENTE', 'N@N1', 2, 'NN', '2022-11-19 14:30:00'),
+('JUEN_CLIENTE', 'N@N2', 2, 'NN', '2022-11-19 14:30:00'),
+('SOSO_SELLER', 'N@N3', 3, 'NN', '2022-11-19 14:30:00'),
+('MEME_SELLER', 'N@N4', 3   , 'NN', '2022-11-19 14:30:00')
 GO
---//SELECT * FROM [Users]
---GO
+INSERT INTO [Sales] (FrKey_Customer, FrKey_Seller, Date, Value, Address) VALUES
+(2, 4, '2022-11-19 14:30:00', 20, 'abc'),
+(2, 5, '2022-11-19 14:30:00', 20, 'abc'),
+(3, 4, '2022-11-19 14:30:00', 20, 'abc'),
+(3, 5, '2022-11-19 14:30:00', 20, 'abc')
+GO
+INSERT INTO Logs (FrKey_User, Description, Date) VALUES
+(2, "Realizo una compra", "")
+GO
 
 
 -- Insercion de registros en la tabla 'Barril' con valores manuales para 'Id'
@@ -132,29 +115,6 @@ INSERT INTO Smokers (Width, Height, Pounds, Price_ref, Detail, Stock) VALUES
 (100.00, 180.00, 70.00, 990000.00, 'Gigante de acero', 25),
 (60.00, 120.00, 45.00, 265000.00, 'Mediano de hierro', 38),
 (80.00, 150.00, 60.00, 480000.00, 'Grande de hierro', 22);
-GO
---SELECT * FROM Smokers
-
-
---// Insercion de registros en imgs
-INSERT INTO Images (Id_Smoker, Url) VALUES
-(1, 'http://example.com/barril1.jpg'),
-(2, 'http://example.com/barril2.jpg'),
-(3, 'http://example.com/barril3.jpg'),
-(4, 'http://example.com/barril4.jpg'),
-(5, 'http://example.com/barril5.jpg'),
-(6, 'http://example.com/barril6.jpg');
-GO
---SELECT * FROM imgd
-
-
--- Insercion de registros en Venta
-INSERT INTO Sales (FrKey_Customer, FrKey_Seller, Date, Value, Address) VALUES
-(2, 3, '2024-10-10', 600000.00, 'Calle 123, Medell�n'),  -- Cliente con Id 2, Vendedor con Id 3
-(5, 6, '2024-10-11', 990000.00, 'Avenida 456, Medell�n'), -- Cliente con Id 5, Vendedor con Id 6
-(8, 9, '2024-10-12', 265000.00, 'Calle 789, Medell�n'),  -- Cliente con Id 8, Vendedor con Id 9
-(11, 12, '2024-10-13', 900000.00, 'Calle 321, Medell�n'),  -- Cliente con Id 11, Vendedor con Id 12
-(14, 15, '2024-10-14', 960000.00, 'Avenida 101, Medell�n'); -- Cliente con Id 14, Vendedor con Id 15
 GO
 
 CREATE VIEW V_Sales AS
@@ -167,18 +127,9 @@ SELECT
     v.Address AS Direccion
 FROM 
     Sales v;
+GO
 SELECT * FROM V_Sales;
 GO
-
--- Insercion de registros en Venta_Producto
-INSERT INTO [Sale_Product] (FrKey_Sale, FrKey_Smoker, Cant) VALUES
-(1, 1, 2),
-(2, 4, 1),
-(3, 5, 1),
-(4, 2, 2),
-(5, 6, 2);
---SELECT* FROM [Sale_Product]
-
 
 CREATE VIEW Vista_Ventas_Productos AS
 SELECT 
@@ -199,11 +150,9 @@ JOIN
 GO
 -- Consultar la vista para verificar
 SELECT * FROM Vista_Ventas_Productos;
-
-
-
+GO
 -- Insercion de registros en Logs
 INSERT INTO Logs (FrKey_User, Description, Date) VALUES
 (1, 'Creacion de la base de datos', '2024-11-16'),
 (3, 'Venta de barriles', '2024-11-16');
---SELECT * FROM Logs
+GO

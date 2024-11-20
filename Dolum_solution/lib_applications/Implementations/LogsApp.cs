@@ -79,4 +79,20 @@ public class LogsApp : ILogsApp
         }
         return this.iRespository!.Delete(entity);
     }
+    public List<Logs> DeleteUsers(int Id)
+    {
+        List<Logs> LogsDeleted = new List<Logs>();
+        Logs SaleToDel = new Logs();
+        SaleToDel.FrKey_User = Id;
+        List<Logs> LogsToDelete = Search(SaleToDel, "USER");
+        
+        
+        foreach (var sale in LogsToDelete)
+        {
+            sale.FrKey_User = 1;
+            var saleDel = Modify(sale);
+            LogsDeleted.Add(saleDel);
+        }
+        return LogsDeleted;
+    }
 }

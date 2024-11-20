@@ -9,7 +9,7 @@ namespace asp_services.Controllers;
 public class SmokersController : ControllerBase
 {
     private ISmokersApp? IApp = null;
-
+    private ISale_ProductApp? ISale_ProductApp = null;
     public SmokersController(ISmokersApp? IApp)
     {
         this.IApp = IApp;
@@ -118,15 +118,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
-            /*if (!tokenController!.Validate(data))
-            {
-                answer["Error"] = "lbNoAutenticacion";
-                return JsonConversor.ConvertirAString(answer);
-            }*/
             var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
+            answer["Logs"] = this.ISale_ProductApp!.DeleteProduct(entity.Id);
             answer["Entities"] = this.IApp!.Delete(entity);
 
             answer["Answer"] = "OK";

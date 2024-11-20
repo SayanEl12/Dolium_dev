@@ -76,4 +76,35 @@ public class SalesApp : ISalesApp
         }
         return this.iRespository!.Delete(entity);
     }
+    public List<Sales> DeleteCostumers(int Id)
+    {
+        List<Sales> SalesDeleted = new List<Sales>();
+        Sales SaleToDel = new Sales();
+        SaleToDel.FrKey_Customer = Id;
+        List<Sales> SalesToDelete = Search(SaleToDel, "CUSTOMER");
+        
+        
+        foreach (var sale in SalesToDelete)
+        {
+            sale.FrKey_Customer = 1;
+            var saleDel = Modify(sale);
+            SalesDeleted.Add(saleDel);
+        }
+        return SalesDeleted;
+    }
+    public List<Sales> DeleteSellers(int Id)
+    {
+        List<Sales> SalesDeleted = new List<Sales>();
+        Sales SaleToDel = new Sales();
+        SaleToDel.FrKey_Seller = Id;
+        List<Sales> SalesToDelete = Search(SaleToDel, "SELLER");
+        
+        foreach (var sale in SalesToDelete)
+        {
+            sale.FrKey_Seller = 1;
+            var saleDel = Modify(sale);
+            SalesDeleted.Add(saleDel);
+        }
+        return SalesDeleted;
+    }
 }

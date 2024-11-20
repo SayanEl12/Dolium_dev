@@ -9,4 +9,6 @@ public interface ISalesApp
     List<Sales> Search(Sales entity,string type);
     Sales Modify(Sales entity);
     Sales Delete(Sales entity);
+    List<Sales> DeleteCostumers(int id);
+    List<Sales> DeleteSellers(int id);
 }

@@ -9,4 +9,5 @@ public interface ISale_ProductApp
     List<Sale_Product> Search(Sale_Product entity,string type);
     Sale_Product Modify(Sale_Product entity);
     Sale_Product Delete(Sale_Product entity);
+    List<Sale_Product> DeleteProduct(int Id);
 }

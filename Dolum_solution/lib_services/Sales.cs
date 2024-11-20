@@ -17,7 +17,7 @@ namespace lib_entities
                 return false;
             if (FrKey_Seller <= 0)
                 return false;
-            if (Date >= DateTime.Today)
+            if (Date > DateTime.Today)
                 return false;
             if (Value <= 0)
                 return false;

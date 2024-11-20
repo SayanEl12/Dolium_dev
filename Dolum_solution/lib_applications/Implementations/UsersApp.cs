@@ -1,14 +1,14 @@
 ﻿using lib_entities;
 using lib_applications.Interfaces;
 using lib_repositories.Interfaces;
-using lib_repositories;
 using System.Linq.Expressions;
+using lib_repositories;
+using lib_repositories.Implementations;
 
 namespace lib_applications.Implementations;
 public class UsersApp : IUsersApp
 {
     private IUsersRepository iRespository;
-
     public UsersApp(IUsersRepository iRespository)
     {
         this.iRespository = iRespository;
@@ -80,6 +80,7 @@ public class UsersApp : IUsersApp
         {
             throw new Exception("lbWrongData");
         }
+        
         return this.iRespository!.Delete(entity);
     }
 }

@@ -13,4 +13,5 @@ public interface IUsersApp
     List<Users> Search(Users entity, string type);
     Users Modify(Users entity);
     Users Delete(Users entity);
+    
 }

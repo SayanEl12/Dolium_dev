@@ -20,22 +20,14 @@ namespace lib_entities
             
             if (string.IsNullOrWhiteSpace(Name) || Name.Length > 100)
                 return false;
-
-            
             if (string.IsNullOrWhiteSpace(Email) ||
                 !Email.Contains("@") ||
                 Email.Length > 100)
                 return false;
-
-            
             if (Quality < 0)
                 return false;
-
-            
             if (string.IsNullOrWhiteSpace(Password) || Password.Length > 100)
                 return false;
-
-            
             if (Register_date > DateTime.Today)
                 return false;
 
