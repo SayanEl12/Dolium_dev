@@ -14,6 +14,16 @@
             "related": ".xml"
           }
         }
+      },
+      "lib_lenguages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/lib_lenguages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_lenguages.dll": {}
+        }
       }
     }
   },
@@ -47,11 +57,17 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "lib_lenguages/1.0.0": {
+      "type": "project",
+      "path": "../lib_lenguages/lib_lenguages.csproj",
+      "msbuildProject": "../lib_lenguages/lib_lenguages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "lib_lenguages >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,7 +95,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/lib_lenguages.csproj": {
+              "projectPath": "/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/lib_lenguages.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

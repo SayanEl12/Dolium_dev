@@ -1140,6 +1140,16 @@
           "bin/placeholder/lib_entities.dll": {}
         }
       },
+      "lib_lenguages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/lib_lenguages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_lenguages.dll": {}
+        }
+      },
       "lib_repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1158,7 +1168,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "lib_lenguages": "1.0.0"
         },
         "compile": {
           "bin/placeholder/lib_utilities.dll": {}
@@ -3325,6 +3336,11 @@
       "type": "project",
       "path": "../lib_services/lib_entities.csproj",
       "msbuildProject": "../lib_services/lib_entities.csproj"
+    },
+    "lib_lenguages/1.0.0": {
+      "type": "project",
+      "path": "../lib_lenguages/lib_lenguages.csproj",
+      "msbuildProject": "../lib_lenguages/lib_lenguages.csproj"
     },
     "lib_repositories/1.0.0": {
       "type": "project",

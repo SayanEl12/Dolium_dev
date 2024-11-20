@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\lib_comunications\lib_comunications.csproj" />
       <ProjectReference Include="..\lib_services\lib_entities.csproj" />
+      <ProjectReference Include="..\lib_utilities\lib_utilities.csproj" />
     </ItemGroup>
 
 </Project>
