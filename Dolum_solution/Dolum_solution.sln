@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_applications", "lib_app
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_services", "asp_services\asp_services.csproj", "{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{F2BB95C6-1414-4891-809C-8897423C4490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_comunications", "lib_comunications\lib_comunications.csproj", "{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentations", "lib_presentations\lib_presentations.csproj", "{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +55,14 @@ Global
 		{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +73,7 @@ Global
 		{32E1C826-BA16-4C4A-9F7C-233251FE39CC} = {0DFC2F1D-D169-47B6-A896-CD23E5CB2AE4}
 		{7B1D98A8-E687-433B-B11B-575EDA01F3B0} = {71D74830-7410-412D-AB66-92DAA16EFB84}
 		{7EBBF024-0C7A-4DD4-B3AC-5C475756B19B} = {71D74830-7410-412D-AB66-92DAA16EFB84}
+		{FC2ED8C2-DDF7-4A44-9B41-692EE408E567} = {F2BB95C6-1414-4891-809C-8897423C4490}
+		{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4} = {F2BB95C6-1414-4891-809C-8897423C4490}
 	EndGlobalSection
 EndGlobal
