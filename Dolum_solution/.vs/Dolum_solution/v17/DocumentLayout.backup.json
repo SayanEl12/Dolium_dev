@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\interfaces\\iuserspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\interfaces\\iuserspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\interfaces\\ismokerspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\interfaces\\ismokerspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\interfaces\\isalespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\interfaces\\isalespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\interfaces\\iimagespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\interfaces\\iimagespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\implementations\\userspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\implementations\\userspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\implementations\\smokerspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\implementations\\smokerspresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\implementations\\salespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\implementations\\salespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_presentations\\implementations\\imagespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE5ECD0E-A067-46BA-9162-ADE9BC6399B4}|lib_presentations\\lib_presentations.csproj|solutionrelative:lib_presentations\\implementations\\imagespresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\interfaces\\isalescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\interfaces\\isalescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\interfaces\\ismokerscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\interfaces\\ismokerscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\interfaces\\iimagescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\interfaces\\iimagescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\interfaces\\iuserscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\interfaces\\iuserscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\implementations\\salescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\implementations\\salescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\implementations\\imagescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\implementations\\imagescomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\implementations\\smokerscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\implementations\\smokerscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_comunications\\implementations\\userscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2ED8C2-DDF7-4A44-9B41-692EE408E567}|lib_comunications\\lib_comunications.csproj|solutionrelative:lib_comunications\\implementations\\userscomunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_applications\\interfaces\\iusersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1D98A8-E687-433B-B11B-575EDA01F3B0}|lib_applications\\lib_applications.csproj|solutionrelative:lib_applications\\interfaces\\iusersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,15 +82,204 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\UsersPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Implementations\\UsersPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\UsersPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Implementations\\UsersPresentation.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:40:44.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IImagesPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\IImagesPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Interfaces\\IImagesPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\IImagesPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Interfaces\\IImagesPresentation.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:50:20.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISalesPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\ISalesPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Interfaces\\ISalesPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\ISalesPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Interfaces\\ISalesPresentation.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:50:00.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISmokersPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\ISmokersPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Interfaces\\ISmokersPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\ISmokersPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Interfaces\\ISmokersPresentation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:41:41.359Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IUsersPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\IUsersPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Interfaces\\IUsersPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Interfaces\\IUsersPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Interfaces\\IUsersPresentation.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:41:08.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SmokersPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\SmokersPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Implementations\\SmokersPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\SmokersPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Implementations\\SmokersPresentation.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:50:33.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\SalesPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Implementations\\SalesPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\SalesPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Implementations\\SalesPresentation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:49:20.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImagesPresentation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\ImagesPresentation.cs",
+              "RelativeDocumentMoniker": "lib_presentations\\Implementations\\ImagesPresentation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\Implementations\\ImagesPresentation.cs",
+              "RelativeToolTip": "lib_presentations\\Implementations\\ImagesPresentation.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwD4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:49:36.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IImagesComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\IImagesComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Interfaces\\IImagesComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\IImagesComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Interfaces\\IImagesComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:46:31.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SalesComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\SalesComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Implementations\\SalesComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\SalesComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Implementations\\SalesComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:44:51.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUsersComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\IUsersComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Interfaces\\IUsersComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\IUsersComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Interfaces\\IUsersComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:39:15.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISalesComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\ISalesComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Interfaces\\ISalesComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\ISalesComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Interfaces\\ISalesComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:45:29.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISmokersComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\ISmokersComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Interfaces\\ISmokersComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Interfaces\\ISmokersComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Interfaces\\ISmokersComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:39:19.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImagesComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\ImagesComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Implementations\\ImagesComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\ImagesComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Implementations\\ImagesComunication.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:46:13.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmokersComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\SmokersComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Implementations\\SmokersComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\SmokersComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Implementations\\SmokersComunication.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:37:57.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersComunication.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\UsersComunication.cs",
+              "RelativeDocumentMoniker": "lib_comunications\\Implementations\\UsersComunication.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\Implementations\\UsersComunication.cs",
+              "RelativeToolTip": "lib_comunications\\Implementations\\UsersComunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:37:55.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IUsersApp.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_applications\\Interfaces\\IUsersApp.cs",
               "RelativeDocumentMoniker": "lib_applications\\Interfaces\\IUsersApp.cs",
@@ -34,12 +287,11 @@
               "RelativeToolTip": "lib_applications\\Interfaces\\IUsersApp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:18:27.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:18:27.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\asp_services\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "asp_services\\Controllers\\UsersController.cs",

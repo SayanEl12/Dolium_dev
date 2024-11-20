@@ -1718,6 +1718,20 @@
           }
         }
       },
+      "lib_comunications/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "lib_entities": "1.0.0",
+          "lib_utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/lib_comunications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_comunications.dll": {}
+        }
+      },
       "lib_entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1730,6 +1744,20 @@
         },
         "runtime": {
           "bin/placeholder/lib_entities.dll": {}
+        }
+      },
+      "lib_presentations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "lib_comunications": "1.0.0",
+          "lib_entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/lib_presentations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_presentations.dll": {}
         }
       },
       "lib_repositories/1.0.0": {
@@ -4704,10 +4732,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "lib_comunications/1.0.0": {
+      "type": "project",
+      "path": "../lib_comunications/lib_comunications.csproj",
+      "msbuildProject": "../lib_comunications/lib_comunications.csproj"
+    },
     "lib_entities/1.0.0": {
       "type": "project",
       "path": "../lib_services/lib_entities.csproj",
       "msbuildProject": "../lib_services/lib_entities.csproj"
+    },
+    "lib_presentations/1.0.0": {
+      "type": "project",
+      "path": "../lib_presentations/lib_presentations.csproj",
+      "msbuildProject": "../lib_presentations/lib_presentations.csproj"
     },
     "lib_repositories/1.0.0": {
       "type": "project",
@@ -4730,7 +4768,9 @@
       "NUnit3TestAdapter >= 4.5.0",
       "Newtonsoft.Json >= 13.0.3",
       "coverlet.collector >= 6.0.0",
+      "lib_comunications >= 1.0.0",
       "lib_entities >= 1.0.0",
+      "lib_presentations >= 1.0.0",
       "lib_repositories >= 1.0.0",
       "lib_utilities >= 1.0.0"
     ]
@@ -4768,6 +4808,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\lib_comunications.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_comunications\\lib_comunications.csproj"
+            },
+            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\lib_presentations.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_presentations\\lib_presentations.csproj"
+            },
             "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\lib_repositories.csproj": {
               "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_repositories\\lib_repositories.csproj"
             },
