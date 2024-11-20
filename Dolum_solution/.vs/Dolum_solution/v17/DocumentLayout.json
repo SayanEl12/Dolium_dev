@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_services\\lib_entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D14A7AF7-2EA7-4013-AF2E-C2C76F4869AA}|lib_services\\lib_entities.csproj|solutionrelative:lib_services\\lib_entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA99510-D1DD-433D-8F34-2DB154A038A8}|mst_test\\mst_test.csproj|solutionrelative:mst_test\\comunications\\usersunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32E1C826-BA16-4C4A-9F7C-233251FE39CC}|lib_utilities\\lib_utilities.csproj|c:\\users\\usuario\\desktop\\repository\\dolium_dev\\dolum_solution\\lib_utilities\\lib_utilities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -94,46 +94,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "lib_entities",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
-              "RelativeDocumentMoniker": "lib_services\\lib_entities.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
-              "RelativeToolTip": "lib_services\\lib_entities.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-20T16:03:59.427Z",
-              "EditorCaption": ""
+              "Title": "UsersUnitarias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
+              "RelativeDocumentMoniker": "mst_test\\Comunications\\UsersUnitarias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
+              "RelativeToolTip": "mst_test\\Comunications\\UsersUnitarias.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:02:47.927Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "lib_utilities",
+              "Title": "lib_utilities.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\lib_utilities.csproj",
               "RelativeDocumentMoniker": "lib_utilities\\lib_utilities.csproj",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_utilities\\lib_utilities.csproj",
               "RelativeToolTip": "lib_utilities\\lib_utilities.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-20T16:03:55.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersUnitarias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
-              "RelativeDocumentMoniker": "mst_test\\Comunications\\UsersUnitarias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\mst_test\\Comunications\\UsersUnitarias.cs",
-              "RelativeToolTip": "mst_test\\Comunications\\UsersUnitarias.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwEEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:02:47.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:03:55.99Z"
             },
             {
               "$type": "Document",
@@ -158,6 +143,19 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAgwAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T14:50:20.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lib_entities.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
+              "RelativeDocumentMoniker": "lib_services\\lib_entities.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj",
+              "RelativeToolTip": "lib_services\\lib_entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T16:03:59.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -193,8 +191,7 @@
               "RelativeToolTip": "lib_presentations\\Interfaces\\IUsersPresentation.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:41:08.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:41:08.529Z"
             },
             {
               "$type": "Document",

@@ -6,4 +6,55 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="rsErrors.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>rsErrors.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsImages.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsImages.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsSales.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsSales.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsSmokers.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsSmokers.resx</DependentUpon>
+      </Compile>
+      <Compile Update="RsUsers.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsUsers.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="rsErrors.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>rsErrors.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsImages.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsImages.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsSales.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsSales.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsSmokers.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsSmokers.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsUsers.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsUsers.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
 </Project>
