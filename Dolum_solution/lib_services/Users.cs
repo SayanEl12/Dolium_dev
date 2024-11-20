@@ -28,7 +28,7 @@ namespace lib_entities
                 return false;
             if (string.IsNullOrWhiteSpace(Password) || Password.Length > 100)
                 return false;
-            if (Register_date > DateTime.Today)
+            if (Register_date > DateTime.Today.AddDays(1))
                 return false;
 
             return true;

@@ -2901,6 +2901,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "lib_entities >= 1.0.0",
+      "lib_lenguages >= 1.0.0",
       "lib_utilities >= 1.0.0"
     ]
   },
@@ -2937,6 +2938,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\lib_lenguages.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_lenguages\\lib_lenguages.csproj"
+            },
             "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj": {
               "projectPath": "C:\\Users\\Usuario\\Desktop\\REPOSITORY\\Dolium_dev\\Dolum_solution\\lib_services\\lib_entities.csproj"
             },

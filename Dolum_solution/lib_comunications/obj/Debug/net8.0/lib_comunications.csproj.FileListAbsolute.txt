@@ -16,3 +16,5 @@ C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\obj\Debug\net8.0\refint\lib_comunications.dll
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\obj\Debug\net8.0\lib_comunications.pdb
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\obj\Debug\net8.0\ref\lib_comunications.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\bin\Debug\net8.0\lib_lenguages.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_comunications\bin\Debug\net8.0\lib_lenguages.pdb

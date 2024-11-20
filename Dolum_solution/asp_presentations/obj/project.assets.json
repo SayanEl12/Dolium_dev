@@ -1029,6 +1029,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "lib_entities": "1.0.0",
+          "lib_lenguages": "1.0.0",
           "lib_utilities": "1.0.0"
         },
         "compile": {

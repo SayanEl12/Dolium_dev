@@ -37,3 +37,6 @@ C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\obj\
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\obj\Debug\net8.0\refint\lib_utilities.dll
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\obj\Debug\net8.0\lib_utilities.pdb
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\obj\Debug\net8.0\ref\lib_utilities.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\bin\Debug\net8.0\lib_lenguages.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\bin\Debug\net8.0\lib_lenguages.pdb
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_utilities\obj\Debug\net8.0\lib_util.3FAD5BD7.Up2Date

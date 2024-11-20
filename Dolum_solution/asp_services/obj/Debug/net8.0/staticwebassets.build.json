@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "HmB9HEqDr7GkvDYNZ42KOzfTHEzrfegKy70YPxTnHnQ=",
+  "Hash": "AfU8ABJiwv0CU+Zbkl0RaZMVr9uV3fIQXk3uPBIpiDA=",
   "Source": "asp_services",
   "BasePath": "_content/asp_services",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

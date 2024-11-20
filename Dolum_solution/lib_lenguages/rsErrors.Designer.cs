@@ -22,14 +22,14 @@ namespace lib_lenguages {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class rsErrors {
+    public class RsErrors {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal rsErrors() {
+        internal RsErrors() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace lib_lenguages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("lib_lenguages.rsErrors", typeof(rsErrors).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("lib_lenguages.RsErrors", typeof(RsErrors).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,47 +61,65 @@ namespace lib_lenguages {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a LLame al administrador.
+        ///   Busca una cadena traducida similar a Some data with base format.
         /// </summary>
-        public static string lbCallAdmin {
+        public static string lbBadFormat {
             get {
-                return ResourceManager.GetString("lbCallAdmin", resourceCulture);
+                return ResourceManager.GetString("lbBadFormat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Error al insertar en la base de datos.
+        ///   Busca una cadena traducida similar a Error Autentication.
         /// </summary>
-        public static string lbErrorDB {
+        public static string lbErrorAutentication {
             get {
-                return ResourceManager.GetString("lbErrorDB", resourceCulture);
+                return ResourceManager.GetString("lbErrorAutentication", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El Id ingresado no es 0.
+        ///   Busca una cadena traducida similar a Error Comunication.
         /// </summary>
-        public static string lbIdIsntZero {
+        public static string lbErrorComunication {
             get {
-                return ResourceManager.GetString("lbIdIsntZero", resourceCulture);
+                return ResourceManager.GetString("lbErrorComunication", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Faltan datos.
+        ///   Busca una cadena traducida similar a ErrorSaveInDataBase.
         /// </summary>
-        public static string lbNullEntity {
+        public static string lbErrorDataBases {
             get {
-                return ResourceManager.GetString("lbNullEntity", resourceCulture);
+                return ResourceManager.GetString("lbErrorDataBases", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ingreso de datos invalidos.
+        ///   Busca una cadena traducida similar a Please validate information.
         /// </summary>
-        public static string lbWrongData {
+        public static string lbNoInformation {
             get {
-                return ResourceManager.GetString("lbWrongData", resourceCulture);
+                return ResourceManager.GetString("lbNoInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Please validate data inexed.
+        /// </summary>
+        public static string lbValidData {
+            get {
+                return ResourceManager.GetString("lbValidData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Please Call Administrator.
+        /// </summary>
+        public static string lnCallToAdmin {
+            get {
+                return ResourceManager.GetString("lnCallToAdmin", resourceCulture);
             }
         }
     }

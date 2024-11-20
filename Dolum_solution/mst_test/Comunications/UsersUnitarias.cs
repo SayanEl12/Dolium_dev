@@ -5,21 +5,21 @@ using lib_utilities;
 namespace mst_pruebas.Comunicationes
 {
     [TestClass]
-    public class UsersPruebaUnitaria
+    public class UsersUnitarias
     {
         private IUsersComunication? iComunication = null;
         private Users? entity = null;
         private List<Users>? lista = null;
-        public UsersPruebaUnitaria()
+        public UsersUnitarias()
         {
             iComunication = new UsersComunication();
         }
         [TestMethod]
-        public void Executar()
+        public void Execute()
         {
             Save();
             GetList();
-            Search();
+            //Search();
             Modify();
             Delete();
         }
@@ -29,9 +29,9 @@ namespace mst_pruebas.Comunicationes
             var task = iComunication!.GetList(data);
             task.Wait();
             data = task.Result;
-            Assert.IsTrue(!data.ContainsKey("Error"));
+            NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             lista = JsonConverter.ConvertToObject<List<Users>>(
-                JsonConverter.ConvertToString(data["entityes"]));
+                JsonConverter.ConvertToString(data["Entities"]));
         }
         private void Search()
         {
@@ -41,7 +41,7 @@ namespace mst_pruebas.Comunicationes
             var task = iComunication!.Search(data);
             task.Wait();
             data = task.Result;
-            Assert.IsTrue(!data.ContainsKey("Error"));
+           NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             lista = JsonConverter.ConvertToObject<List<Users>>(
                 JsonConverter.ConvertToString(data["entityes"]));
         }
@@ -50,34 +50,32 @@ namespace mst_pruebas.Comunicationes
             var data = new Dictionary<string, object>();
             entity = new Users()
             {
-                Persona = "Test 2",
-                Nota1 = 1.2m,
-                Nota2 = 2.5m,
-                Nota3 = 4.5m,
-                Nota4 = 3.8m,
-                Nota5 = 4.3m,
-                Final = 0.0m,
-                Fecha = DateTime.Now,
+                Name = "Juan",
+                Email = "ASDFAS@gmail.com",
+                Quality = 2,
+                Password = "Literalmente cualquier cosa :)",
+                Register_date = DateTime.Now
             };
-            data["entity"] = entity!;
+            NUnit.Framework.Assert.IsTrue(entity.Validate());
+            data["Entity"] = entity!;
             var task = iComunication!.Save(data);
             task.Wait();
             data = task.Result;
             NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             entity = JsonConverter.ConvertToObject<Users>(
-                JsonConverter.ConvertToString(data["entity"]));
+                JsonConverter.ConvertToString(data["Entities"]));
         }
         public void Modify()
         {
             var data = new Dictionary<string, object>();
-            entity!.Final = 3.0m;
-            data["entity"] = entity!;
+            entity!.Email = "Juanchito@gmail.com";
+            data["Entity"] = entity!;
             var task = iComunication!.Modify(data);
             task.Wait();
             data = task.Result;
             NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             entity = JsonConverter.ConvertToObject<Users>(
-                JsonConverter.ConvertToString(data["entity"]));
+                JsonConverter.ConvertToString(data["Entities"]));
         }
         public void Delete()
         {

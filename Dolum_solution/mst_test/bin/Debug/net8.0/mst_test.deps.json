@@ -1226,10 +1226,19 @@
           }
         }
       },
+      "lib_lenguages/1.0.0": {
+        "runtime": {
+          "lib_lenguages.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "lib_presentations/1.0.0": {
         "dependencies": {
           "lib_comunications": "1.0.0",
-          "lib_entities": "1.0.0"
+          "lib_entities": "1.0.0",
+          "lib_utilities": "1.0.0"
         },
         "runtime": {
           "lib_presentations.dll": {
@@ -1252,7 +1261,8 @@
       },
       "lib_utilities/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "lib_lenguages": "1.0.0"
         },
         "runtime": {
           "lib_utilities.dll": {
@@ -1808,6 +1818,11 @@
       "sha512": ""
     },
     "lib_entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lib_lenguages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -193,3 +193,5 @@ C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\obj\D
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\obj\Debug\net8.0\asp_services.pdb
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\obj\Debug\net8.0\asp_services.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\obj\Debug\net8.0\ref\asp_services.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\bin\Debug\net8.0\lib_lenguages.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\asp_services\bin\Debug\net8.0\lib_lenguages.pdb

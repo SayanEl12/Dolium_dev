@@ -7,10 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Update="rsErrors.Designer.cs">
+      <Compile Update="RsErrors.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>rsErrors.resx</DependentUpon>
+        <DependentUpon>RsErrors.resx</DependentUpon>
       </Compile>
       <Compile Update="RsImages.Designer.cs">
         <DesignTime>True</DesignTime>
@@ -35,9 +35,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="rsErrors.resx">
+      <EmbeddedResource Update="RsErrors.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
-        <LastGenOutput>rsErrors.Designer.cs</LastGenOutput>
+        <LastGenOutput>RsErrors.Designer.cs</LastGenOutput>
       </EmbeddedResource>
       <EmbeddedResource Update="RsImages.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>

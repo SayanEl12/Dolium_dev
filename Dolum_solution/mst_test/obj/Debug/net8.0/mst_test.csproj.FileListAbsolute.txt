@@ -477,3 +477,5 @@ C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug\net8.0\lib_presentations.dll
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug\net8.0\lib_comunications.pdb
 C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug\net8.0\lib_presentations.pdb
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug\net8.0\lib_lenguages.dll
+C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\mst_test\bin\Debug\net8.0\lib_lenguages.pdb
