@@ -24,16 +24,3 @@ C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/lib_services/obj/D
 C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/lib_services/obj/Debug/net8.0/ref/lib_entities.dll
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/obj/Debug/net8.0/lib_entities.csproj.CoreCompileInputs.cache
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_services/obj/Debug/net8.0/lib_entities.sourcelink.json
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_entities.deps.json
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_entities.dll
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\bin\Debug\net8.0\lib_entities.pdb
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.sourcelink.json
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.dll
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\refint\lib_entities.dll
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\lib_entities.pdb
-C:\Users\Usuario\Desktop\REPOSITORY\Dolium_dev\Dolum_solution\lib_services\obj\Debug\net8.0\ref\lib_entities.dll
