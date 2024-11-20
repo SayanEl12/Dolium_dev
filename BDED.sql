@@ -16,7 +16,7 @@ CREATE TABLE [Users] (
 	[Password] VARCHAR(100) NOT NULL,
 	[Register_date] DATE NOT NULL
 	);
-	GO
+GO
 
 -- Tabla Qualities
 CREATE TABLE [Qualities] (
