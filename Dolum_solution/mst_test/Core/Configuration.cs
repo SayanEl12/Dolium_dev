@@ -4,7 +4,7 @@ using Microsoft.Extensions.Primitives;
 using lib_utilities;
 
 namespace mst_test.Core;
-public class Configuration
+public class Configuration : IConfiguration
 {
     private static Dictionary<string, string>? data;
     
