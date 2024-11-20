@@ -17,6 +17,11 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>RsImages.resx</DependentUpon>
       </Compile>
+      <Compile Update="RsMenu.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RsMenu.resx</DependentUpon>
+      </Compile>
       <Compile Update="RsSales.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
@@ -42,6 +47,10 @@
       <EmbeddedResource Update="RsImages.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>RsImages.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="RsMenu.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>RsMenu.Designer.cs</LastGenOutput>
       </EmbeddedResource>
       <EmbeddedResource Update="RsSales.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>

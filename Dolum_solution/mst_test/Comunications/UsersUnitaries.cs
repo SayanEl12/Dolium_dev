@@ -5,12 +5,12 @@ using lib_utilities;
 namespace mst_pruebas.Comunicationes
 {
     [TestClass]
-    public class UsersUnitarias
+    public class UsersUnitaries
     {
         private IUsersComunication? iComunication = null;
         private Users? entity = null;
         private List<Users>? lista = null;
-        public UsersUnitarias()
+        public UsersUnitaries()
         {
             iComunication = new UsersComunication();
         }
@@ -41,7 +41,7 @@ namespace mst_pruebas.Comunicationes
             var task = iComunication!.Search(data);
             task.Wait();
             data = task.Result;
-           NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
+            NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             lista = JsonConverter.ConvertToObject<List<Users>>(
                 JsonConverter.ConvertToString(data["entityes"]));
         }

@@ -11,8 +11,9 @@ namespace lib_utilities
         public enum Windows
        {
             GetList = 0,
-            Modify = 1,
-            Delete=2
+            //Save = 1,
+            Modify = 2,
+            Delete=3
             
         }
     }
