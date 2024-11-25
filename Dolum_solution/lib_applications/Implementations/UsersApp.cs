@@ -2,8 +2,6 @@
 using lib_applications.Interfaces;
 using lib_repositories.Interfaces;
 using System.Linq.Expressions;
-using lib_repositories;
-using lib_repositories.Implementations;
 
 namespace lib_applications.Implementations;
 public class UsersApp : IUsersApp
@@ -76,11 +74,15 @@ public class UsersApp : IUsersApp
         if (entity.Id == 0)
             throw new Exception("lbIdIsntZero");
 
+        entity.Name = null;
+        entity.Email = null;
+        entity.Password = null;
+
         if (!entity.Validate())
         {
             throw new Exception("lbWrongData");
         }
         
-        return this.iRespository!.Delete(entity);
+        return this.iRespository!.Modify(entity);
     }
 }

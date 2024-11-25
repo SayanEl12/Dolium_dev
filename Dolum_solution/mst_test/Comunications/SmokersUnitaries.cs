@@ -19,7 +19,7 @@ namespace mst_pruebas.Comunicationes
         {
             Save();
             GetList();
-            //Search();
+            Search();
             Modify();
             Delete();
         }
@@ -36,21 +36,26 @@ namespace mst_pruebas.Comunicationes
         private void Search()
         {
             var data = new Dictionary<string, object>();
-            data["entity"] = entity!;
-            data["Tipo"] = "NOMBRE";
+            data["Entity"] = entity!;
+            data["Type"] = "DETAIL";
             var task = iComunication!.Search(data);
             task.Wait();
             data = task.Result;
             NUnit.Framework.Assert.IsTrue(!data.ContainsKey("Error"));
             lista = JsonConverter.ConvertToObject<List<Smokers>>(
-                JsonConverter.ConvertToString(data["entityes"]));
+                JsonConverter.ConvertToString(data["Entities"]));
         }
         public void Save()
         {
             var data = new Dictionary<string, object>();
             entity = new Smokers()
             {
-               //AGREGAR INFO
+                Width = 10,
+                Height = 10,
+                Pounds = 10,
+                Price_ref  = 10,
+                Detail = "a",
+                Stock = 10
             };
             NUnit.Framework.Assert.IsTrue(entity.Validate());
             data["Entity"] = entity!;
@@ -64,7 +69,7 @@ namespace mst_pruebas.Comunicationes
         public void Modify()
         {
             var data = new Dictionary<string, object>();
-            entity!.Email = "Juanchito@gmail.com";
+            entity!.Detail = "Juanchito@gmail.com";
             data["Entity"] = entity!;
             var task = iComunication!.Modify(data);
             task.Wait();

@@ -9,6 +9,11 @@
       "lib_lenguages/1.0.0": {
         "runtime": {
           "lib_lenguages.dll": {}
+        },
+        "resources": {
+          "es-419/lib_lenguages.resources.dll": {
+            "locale": "es-419"
+          }
         }
       }
     }

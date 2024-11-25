@@ -46,7 +46,7 @@ public class LogsApp : ILogsApp
             case "USER": conditions = x => x.FrKey_User!.Equals(entity.FrKey_User); break;
             case "DESCRIPTION": conditions = x => x.Description!.Contains(entity.Description); break;
             case "DATE": conditions = x => x.Date!.Equals(entity.Date); break;
-           
+            default: conditions = x => x.Id == entity.Id; break;
         }
 
         return this.iRespository!.Search(conditions);
@@ -82,17 +82,19 @@ public class LogsApp : ILogsApp
     public List<Logs> DeleteUsers(int Id)
     {
         List<Logs> LogsDeleted = new List<Logs>();
-        Logs SaleToDel = new Logs();
-        SaleToDel.FrKey_User = Id;
-        List<Logs> LogsToDelete = Search(SaleToDel, "USER");
-        
-        
-        foreach (var sale in LogsToDelete)
+        List<Logs> LogsToDelete = new List<Logs>();
+        Logs LogToDel = new Logs();
+        LogToDel.FrKey_User = Id;
+        LogsToDelete = Search(LogToDel, "USER");
+
+        foreach (var log in LogsToDelete)
         {
-            sale.FrKey_User = 1;
-            var saleDel = Modify(sale);
-            LogsDeleted.Add(saleDel);
+            log.FrKey_User = 1;
+            var logDel = new Logs();
+            logDel = Modify(log);
+            LogsDeleted.Add(logDel);
         }
+        
         return LogsDeleted;
     }
 }

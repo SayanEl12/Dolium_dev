@@ -20,14 +20,17 @@ namespace lib_entities
 
         public bool Validate()
         {
-            if (Width > 50.0m || Height > 120.0m)
-                return false;
-            if (Price_ref <= 0)
-                return false;
-            if (Detail.Length >= 255)
-                return false;
-            if (Stock <= 0)
-                return false;
+            if (Width != 0 || Height != 0)
+            {
+                if (Width > 60.0m || Height > 100.0m)
+                    return false;
+                if (Price_ref <= 0)
+                    return false;
+                if (Detail.Length >= 255)
+                    return false;
+                if (Stock <= 0)
+                    return false;
+            }
             return true;
         }
     }

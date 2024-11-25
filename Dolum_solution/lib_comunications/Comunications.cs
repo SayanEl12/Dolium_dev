@@ -48,6 +48,7 @@ public class Comunications
                 answer.Add("Error", "lbComunicationsError");
                 return answer;
             }
+            
             var response = await message.Content.ReadAsStringAsync();
             httpClient.Dispose();
             httpClient = null;

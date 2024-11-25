@@ -50,11 +50,7 @@ namespace mst_pruebas.Comunicationes
             var data = new Dictionary<string, object>();
             entity = new Images()
             {
-                Name = "Juan",
-                Email = "ASDFAS@gmail.com",
-                Quality = 2,
-                Password = "Literalmente cualquier cosa :)",
-                Register_date = DateTime.Now
+                Url = "Juan",
             };
             NUnit.Framework.Assert.IsTrue(entity.Validate());
             data["Entity"] = entity!;
@@ -68,7 +64,7 @@ namespace mst_pruebas.Comunicationes
         public void Modify()
         {
             var data = new Dictionary<string, object>();
-            entity!.Email = "Juanchito@gmail.com";
+            entity!.Url = "Juanchito@gmail.com";
             data["Entity"] = entity!;
             var task = iComunication!.Modify(data);
             task.Wait();

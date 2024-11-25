@@ -10,9 +10,10 @@ public class SmokersController : ControllerBase
 {
     private ISmokersApp? IApp = null;
     private ISale_ProductApp? ISale_ProductApp = null;
-    public SmokersController(ISmokersApp? IApp)
+    public SmokersController(ISmokersApp? IApp, ISale_ProductApp? ISale_ProductApp)
     {
         this.IApp = IApp;
+        this.ISale_ProductApp = ISale_ProductApp;
     }
 
     private Dictionary<string, object> GetData()
@@ -122,11 +123,44 @@ public class SmokersController : ControllerBase
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
-            answer["Logs"] = this.ISale_ProductApp!.DeleteProduct(entity.Id);
+            try
+            {
+                answer["Logs"] = this.ISale_ProductApp!.DeleteProduct(entity.Id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error  en logs");
+            }
+            
             answer["Entities"] = this.IApp!.Delete(entity);
 
             answer["Answer"] = "OK";
             answer["Date"] = DateTime.Now.ToString();
+        }
+        catch (Exception ex)
+        {
+            answer["Error"] = ex.Message.ToString();
+        }
+        return lib_utilities.JsonConverter.ConvertToString(answer);
+    }
+
+    [HttpPost]
+    public string Search()
+    {
+        var answer = new Dictionary<string, object>();
+        try
+        {
+            var data = GetData();
+            var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
+                lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
+            string type = data["Type"].ToString();
+            
+            this.IApp!.Configure(Configuration.GetValue("string_connection"));
+            answer["Entities"] = this.IApp!.Search(entity, type);
+
+            answer["Answer"] = "OK";
+            answer["Date"] = DateTime.Now.ToString();
+            
         }
         catch (Exception ex)
         {

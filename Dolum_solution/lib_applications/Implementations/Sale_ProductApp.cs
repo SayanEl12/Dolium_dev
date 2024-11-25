@@ -80,17 +80,39 @@ public class Sale_ProductApp : ISale_ProductApp
     }
 
     public List<Sale_Product> DeleteProduct(int Id)
-    {
+    {   
         List<Sale_Product> Sale_ProductDeleted = new List<Sale_Product>();
         Sale_Product Sale_prodToDel = new Sale_Product();
-        Sale_prodToDel.FrKey_Smoker = Id;
-        List<Sale_Product> Sale_ProductToDelete = Search(Sale_prodToDel, "SMOKER");
+        List<Sale_Product> Sale_ProductToDelete = new List<Sale_Product>();
+        try
+        {
+            Sale_prodToDel.FrKey_Smoker = Id;
+            Sale_ProductToDelete = Search(Sale_prodToDel, "SMOKER");
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error en primera parte");
+        }
+
+        try
+        {
+            foreach (var s_p in Sale_ProductToDelete)
+            {
+                s_p.FrKey_Smoker = 1;
+                var s_pDel = Modify(s_p);
+                Sale_ProductDeleted.Add(s_pDel);
+            }
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error en la segunda parte");
+        }
         
         foreach (var s_p in Sale_ProductToDelete)
         {
             s_p.FrKey_Smoker = 1;
-            var saleDel = Modify(s_p);
-            Sale_ProductDeleted.Add(saleDel);
+            var s_pDel = Modify(s_p);
+            Sale_ProductDeleted.Add(s_pDel);
         }
         return Sale_ProductDeleted;
     }

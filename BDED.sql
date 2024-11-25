@@ -10,10 +10,10 @@ GO
 -- Tabla Usuario
 CREATE TABLE [Users] (
     [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
-    [Name] VARCHAR(100) NOT NULL,
-    [Email] VARCHAR(100) NOT NULL UNIQUE,
+    [Name] VARCHAR(100) ,
+    [Email] VARCHAR(100) UNIQUE,
     [Quality] INT NOT NULL,
-	[Password] VARCHAR(100) NOT NULL,
+	[Password] VARCHAR(100) ,
 	[Register_date] DATE NOT NULL
 	);
 GO
@@ -26,7 +26,7 @@ CREATE TABLE [Qualities] (
 GO
 
 -- Tabla Smoker
-CREATE TABLE Smokers (
+CREATE TABLE [Smokers] (
     [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
     [Width] DECIMAL(6,2) NOT NULL,         
     [Height] DECIMAL(6,2) NOT NULL,       
@@ -90,31 +90,29 @@ GO
 
 -- Insercion de registros en la tabla 'Usuario' con valores manuales para 'Id'
 INSERT INTO [Users] (Name, Email, Quality, Password, Register_date) VALUES
-('NN', 'N@N', 3, 'NN', '2000-01-01 00:00:00'),
 ('PEPE_CLIENTE', 'N@N1', 2, 'NN', '2022-11-19 14:30:00'),
 ('JUEN_CLIENTE', 'N@N2', 2, 'NN', '2022-11-19 14:30:00'),
 ('SOSO_SELLER', 'N@N3', 3, 'NN', '2022-11-19 14:30:00'),
 ('MEME_SELLER', 'N@N4', 3   , 'NN', '2022-11-19 14:30:00')
 GO
 INSERT INTO [Sales] (FrKey_Customer, FrKey_Seller, Date, Value, Address) VALUES
-(2, 4, '2022-11-19 14:30:00', 20, 'abc'),
-(2, 5, '2022-11-19 14:30:00', 20, 'abc'),
-(3, 4, '2022-11-19 14:30:00', 20, 'abc'),
-(3, 5, '2022-11-19 14:30:00', 20, 'abc')
+(1, 3, '2022-11-19 14:30:00', 20, 'abc'),
+(1, 4, '2022-11-19 14:30:00', 20, 'abc'),
+(2, 3, '2022-11-19 14:30:00', 20, 'abc'),
+(2, 4, '2022-11-19 14:30:00', 20, 'abc')
 GO
 INSERT INTO Logs (FrKey_User, Description, Date) VALUES
-(2, "Realizo una compra", "")
+(2, 'Realizo una compra', '2022-11-19 14:30:00')
 GO
-
 
 -- Insercion de registros en la tabla 'Barril' con valores manuales para 'Id'
 INSERT INTO Smokers (Width, Height, Pounds, Price_ref, Detail, Stock) VALUES
-(50.00, 100.00, 30.00, 300000.00, 'Pequeño de acero', 40),
-(60.00, 120.00, 45.00, 450000.00, 'Mediano de acero', 45),
-(380.00, 150.00, 60.00, 600000.00, 'Grande de acero', 30),
-(100.00, 180.00, 70.00, 990000.00, 'Gigante de acero', 25),
-(60.00, 120.00, 45.00, 265000.00, 'Mediano de hierro', 38),
-(80.00, 150.00, 60.00, 480000.00, 'Grande de hierro', 22);
+(30.00, 60.00, 64.00, 100.00, 'Pequeño de acero', 10),
+(30.00, 70.00, 64.00, 120.00, 'Pequeño-mediano de acero', 10),
+(40.00, 60.00, 64.00, 140.00, 'Mediano de acero', 10),
+(40.00, 70.00, 64.00, 160.00, 'Mediano-Grande de acero', 10),
+(50.00, 80.00, 64.00, 200.00, 'Grande de hierro', 10),
+(60.00, 90.00, 64.00, 220.00, 'Gigante de hierro', 10);
 GO
 
 CREATE VIEW V_Sales AS
@@ -150,9 +148,4 @@ JOIN
 GO
 -- Consultar la vista para verificar
 SELECT * FROM Vista_Ventas_Productos;
-GO
--- Insercion de registros en Logs
-INSERT INTO Logs (FrKey_User, Description, Date) VALUES
-(1, 'Creacion de la base de datos', '2024-11-16'),
-(3, 'Venta de barriles', '2024-11-16');
 GO
