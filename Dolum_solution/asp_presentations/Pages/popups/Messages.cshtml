@@ -1,0 +1,35 @@
+@page
+@model asp_presentations.Pages.popups.Messages
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <center>
+        <div class='popup'>
+            <div class='pp_ms_inner'>
+                <div style='width:95%'>
+                    <h2 align="left">
+                        @lib_lenguages.RsMenu.lbMessage
+                    </h2><h4 align="left">
+                        @ViewData["Message"]
+                    </h4>
+                    <input type="submit"
+                           value="@lib_lenguages.RsMenu.lbClose"
+                           asp-page-handler="BtClose"
+                           class="btn btn-secondary"/>
+                </div>
+            </div>
+        </div>
+    </center> 
+</div>
+</body>
+</html>

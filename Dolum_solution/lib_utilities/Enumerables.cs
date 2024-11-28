@@ -14,7 +14,12 @@ namespace lib_utilities
             Save = 1,
             Modify = 2,
             Delete=3
-            
+        }
+
+        public enum Client
+        {
+            HomePage = 0,
+            SmokerPage = 1,
         }
     }
 }

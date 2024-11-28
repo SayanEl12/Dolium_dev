@@ -52,6 +52,13 @@ public class Connection : DbContext
         .Take(Size)
         .ToList();
     }
+    public virtual List<Images> Search(Expression<Func<Images,bool>> conditions)
+    {
+        return this.Set<Images>()
+            .Include(x => x._Id_Smoker)
+            .Where(conditions)
+            .ToList();
+    }
     public virtual void Modify<T>(T entity) where T : class
     {
         var entry = this.Entry(entity);

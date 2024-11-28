@@ -1,0 +1,57 @@
+@page
+@model asp_presentations.Pages.Windows.Client.HomePageModel
+
+@{
+    ViewData["Tittle"] = "HomePageClient";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+<div>
+    <header>
+        <h1>Welcome to the Smokers house</h1>
+    </header>
+
+    <nav>
+        <a asp-area="" asp-page="Windows/Client/HomePageModel">
+            @lib_lenguages.RsMenu.lbHome
+        </a>
+    </nav>
+
+    <form method="POST" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+        <div class="search-container">
+            <input id="flDetail"
+                   type="text"
+                   placeholder="Search..."
+                   asp-for="@Model.FilterSmokers!.Detail">
+            <button type="submit">Search</button>
+        </div>
+
+        <div class="card-container">
+            @if (Model != null && Model.ListSmokers != null)
+            {
+                @foreach (var element in Model.ListSmokers)
+                {
+                    <div class="card">
+                        <img height="200" width="300" 
+                             src="nothing" 
+                             alt="Card 1 Image">
+                        <h2>@element.Detail</h2>
+                    </div>
+                }
+            }
+        </div>
+    </form>
+    
+</div>
+</body>
+</html>

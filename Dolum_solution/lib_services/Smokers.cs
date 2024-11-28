@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,8 @@ namespace lib_entities
         public decimal Price_ref { get; set; }
         public string? Detail { get; set; }
         public int Stock { get; set; }
-
+        [NotMapped] public virtual ICollection<Images>? Images { get; set; }
+        
         public bool Validate()
         {
             if (Width != 0 || Height != 0)

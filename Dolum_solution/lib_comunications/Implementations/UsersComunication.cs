@@ -34,4 +34,9 @@ public class UsersComunication : IUsersComunication
         data = _comunications!.BuildUrl(data, "Delete");
         return await _comunications!.Execute(data);
     }
+    
+    public async Task<Dictionary<string, object>> Authenticate(Dictionary<string, object> data)
+    {
+        return await _comunications!.Authenticate(data);
+    }
 }

@@ -1,0 +1,181 @@
+@page
+@model asp_presentations.Windows.SmokersModel
+
+@{
+    ViewData["Title"] = "Smokers";
+}
+<div>
+    <form method="POST" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        
+        <div >
+            <h3>Smokers</h3>
+        </div>
+        <div class="bt_panel_buttons">
+            <input type="submit" value="Refresh" asp-page-handler = "BtRefresh"
+                   class="btn btn-secondary" 
+                   disabled="@(Model.Action != lib_utilities.Enumerables.Windows.GetList)">
+            <input type="submit" value="New" asp-page-handler="BtNew" 
+                   class="btn btn-secondary" 
+                   disabled="@(Model.Action != lib_utilities.Enumerables.Windows.GetList)">
+            <input type="submit" value="Cancel" asp-page-handler="BtCancel"
+                   class="btn btn-secondary"
+                   disabled="@(Model.Action != lib_utilities.Enumerables.Windows.GetList)">
+            <input type="submit" value="New" asp-page-handler="BtNew"
+                   class="btn btn-secondary"
+                   disabled="@(Model.Action != lib_utilities.Enumerables.Windows.GetList)">
+        </div>
+        
+        @if (Model.Action != lib_utilities.Enumerables.Windows.GetList ||
+             Model.Action == lib_utilities.Enumerables.Windows.Delete)
+        {
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Id" />
+        }
+        
+        @if (Model.Action == lib_utilities.Enumerables.Windows.Delete)
+        {
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Width" />
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Height" />
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Pounds" />
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Price_ref" />
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Detail" />
+            <input type="hidden"
+                   asp-for="@Model.Actual!.Stock" />
+        }
+        
+        @if (Model.Action == lib_utilities.Enumerables.Windows.Modify)
+        {
+            <div class="containers_vn panel panel_default">
+                <div>
+                    <h3>Smoker</h3>
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Detail </label>
+                        <div class="col-lg-6">
+                            <input id="nmDetail"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Detail"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Width </label>
+                        <div class="col-lg-6">
+                            <input id="nmWidth"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Width"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Height </label>
+                        <div class="col-lg-6">
+                            <input id="nmHeight"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Height"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Pounds </label>
+                        <div class="col-lg-6">
+                            <input id="nmPounds"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Pounds"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Price_ref </label>
+                        <div class="col-lg-6">
+                            <input id="nmPrice_ref"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Price_ref"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"> Stock </label>
+                        <div class="col-lg-6">
+                            <input id="nmStock"
+                                   class="cts_forms form-control"
+                                   asp-for="@Model.Actual!.Stock"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        @if (ViewData.ContainsKey("Message"))
+        {
+            <input type="hidden" asp-for="@Model.Action" />
+            @await Html.PartialAsync("../popups/Messages.cshtml");
+        }
+        
+        @if (Model.Action == lib_utilities.Enumerables.Windows.Delete)
+        {
+            <div class="popup">
+                <div class="pp_del_inner">
+                    <div style='width:95%'>
+                        <h2> Message </h2>
+                        <h4> Do you want to delete the entity?</h4>
+                        <h6> @Model.Actual!.Detail</h6>
+                        <br/><br/>
+                        <input type="submit" value="Delete" asp-page-handler="BtDelete"
+                               class="btn btn-secondary"/>
+                    </div>
+                </div>
+            </div>
+        }
+        
+        @if (Model.Action == lib_utilities.Enumerables.Windows.GetList ||
+             Model.Action == lib_utilities.Enumerables.Windows.Delete)
+        {
+            <input id="flDetail" class="cts_forms form-control"
+                   asp-for="@Model.Filter!.Detail" placeholder="Detail" />
+            <br />
+            <div class="containers_vn panel panel-default">
+                <table class="tb_data table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Detail</th>
+                        <th>Width</th>
+                        <th>Height</th>
+                        <th>Pounds</th>
+                        <th>reference price</th>
+                        <th>Stock</th>
+                        <th class="cl_actions">Action</th>
+                    </tr>
+                    @if (Model != null && Model.List != null)
+                    {
+                        @foreach (var element in Model.List)
+                        {
+                            <tr>
+                                <td>@element.Detail</td>
+                                <td>@element.Width</td>
+                                <td>@element.Height</td>
+                                <td>@element.Pounds</td>
+                                <td>@element.Price_ref</td>
+                                <td>@element.Stock</td>
+                                <td>
+                                    <input type="submit" value="Modify"
+                                           asp-page-handler="BtModify" 
+                                           class="btn btn-secondary"
+                                           asp-route-data="@element.Id" />
+                                    <input type="submit" value="Delete"
+                                           asp-page-handler="BtDeleteVal" 
+                                           class="btn btn-secondary"
+                                           asp-route-data="@element.Id" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+    </form>
+</div>

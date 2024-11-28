@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/popups/Messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvcG9wdXBzL01lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,28 +42,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Windows/Client/HomePageModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2luZG93cy9DbGllbnQvSG9tZVBhZ2VNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Windows/LogInModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2luZG93cy9Mb2dJbk1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Windows/SmokersModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2luZG93cy9TbW9rZXJzTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Images.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9JbWFnZXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Sales.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9TYWxlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Smokers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9TbW9rZXJzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Windows/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = V2luZG93cy9Vc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/asp_presentations/Pages/Shared/_Layout.cshtml]

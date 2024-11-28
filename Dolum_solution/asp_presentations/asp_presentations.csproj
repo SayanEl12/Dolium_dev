@@ -13,4 +13,11 @@
       <ProjectReference Include="..\lib_services\lib_entities.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Windows\Images.cshtml" />
+      <_ContentIncludedByDefault Remove="Windows\Sales.cshtml" />
+      <_ContentIncludedByDefault Remove="Windows\Smokers.cshtml" />
+      <_ContentIncludedByDefault Remove="Windows\Users.cshtml" />
+    </ItemGroup>
+
 </Project>

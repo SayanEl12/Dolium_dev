@@ -2,6 +2,7 @@ using asp_services.Core;
 using lib_applications.Interfaces;
 using lib_entities;
 using Microsoft.AspNetCore.Mvc;
+using lib_utilities;
 
 namespace asp_services.Controllers;
 [ApiController]
@@ -10,10 +11,13 @@ public class SmokersController : ControllerBase
 {
     private ISmokersApp? IApp = null;
     private ISale_ProductApp? ISale_ProductApp = null;
-    public SmokersController(ISmokersApp? IApp, ISale_ProductApp? ISale_ProductApp)
+    private TokenController? tokenController = null;
+    public SmokersController(ISmokersApp? IApp, ISale_ProductApp? ISale_ProductApp,
+        TokenController tokenController)
     {
         this.IApp = IApp;
         this.ISale_ProductApp = ISale_ProductApp;
+        this.tokenController = tokenController;
     }
 
     private Dictionary<string, object> GetData()
@@ -40,11 +44,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
-            /*if (!tokenController!.Validate(datos))
+            if (!tokenController!.Validate(data))
             {
-                respuesta["Error"] = "lbNoAutenticacion";
-                return JsonConversor.ConvertirAString(respuesta);
-            }*/
+                answer["Error"] = "lbNoAutenticacion";
+                return JsonConverter.ConvertToString(answer);
+            }
 
             this.IApp!.Configure(Configuration.GetValue("string_connection"));
             answer["Entities"] = this.IApp!.GetList();
@@ -65,11 +69,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
-            /*if (!tokenController!.Validate(datos))
+            if (!tokenController!.Validate(data))
             {
-                respuesta["Error"] = "lbNoAutenticacion";
-                return JsonConversor.ConvertirAString(respuesta);
-            }*/
+                answer["Error"] = "lbNoAutenticacion";
+                return JsonConverter.ConvertToString(answer);
+            }
             var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             
@@ -92,11 +96,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
-            /*if (!tokenController!.Validate(data))
+            if (!tokenController!.Validate(data))
             {
                 answer["Error"] = "lbNoAutenticacion";
-                return JsonConversor.ConvertirAString(answer);
-            }*/
+                return JsonConverter.ConvertToString(answer);
+            }
             var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             
@@ -119,6 +123,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
+            if (!tokenController!.Validate(data))
+            {
+                answer["Error"] = "lbNoAutenticacion";
+                return JsonConverter.ConvertToString(answer);
+            }
             var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             
@@ -151,6 +160,11 @@ public class SmokersController : ControllerBase
         try
         {
             var data = GetData();
+            if (!tokenController!.Validate(data))
+            {
+                answer["Error"] = "lbNoAutenticacion";
+                return JsonConverter.ConvertToString(answer);
+            }
             var entity = lib_utilities.JsonConverter.ConvertToObject<Smokers>(
                 lib_utilities.JsonConverter.ConvertToString(data["Entity"]));
             string type = data["Type"].ToString();

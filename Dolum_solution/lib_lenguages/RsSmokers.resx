@@ -98,4 +98,40 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+	<data name="clWidth" xml:space="preserve">
+		<value>WIDTH</value>
+	</data>
+	<data name="clHeight" xml:space="preserve">
+		<value>HEIGHT</value>
+	</data>
+	<data name="clPounds" xml:space="preserve">
+		<value>POUNDS</value>
+	</data>
+	<data name="clPrice_ref" xml:space="preserve">
+		<value>REFERENCE PRICE</value>
+	</data>
+	<data name="clDetail" xml:space="preserve">
+		<value>DETAIL</value>
+	</data>
+	<data name="clStock" xml:space="preserve">
+		<value>STOCK</value>
+	</data>
+	<data name="lbWidth" xml:space="preserve">
+		<value>Width:</value>
+	</data>
+	<data name="lbHeight" xml:space="preserve">
+		<value>Height:</value>
+	</data>
+	<data name="lbPounds" xml:space="preserve">
+		<value>Pounds:</value>
+	</data>
+	<data name="lbPrice_ref" xml:space="preserve">
+		<value>Reference price:</value>
+	</data>
+	<data name="lbDetail" xml:space="preserve">
+		<value>Detail:</value>
+	</data>
+	<data name="lbStock" xml:space="preserve">
+		<value>Stock</value>
+	</data>
 </root>

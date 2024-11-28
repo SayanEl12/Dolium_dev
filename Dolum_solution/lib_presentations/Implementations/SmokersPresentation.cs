@@ -31,7 +31,7 @@ public class SmokersPresentation : ISmokersPresentation
         var list = new List<Smokers>();
         var data = new Dictionary<string, object>();
         data["Entity"] = entity;
-        data["type"] = type;
+        data["Type"] = type;
         
         var answer = await iComunication!.Search(data);
         if (answer.ContainsKey("Error"))

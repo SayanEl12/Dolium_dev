@@ -40,7 +40,7 @@ namespace asp_servicies
             services.AddScoped<IImagesApp, ImagesApp>();
             services.AddScoped<IUsersApp, UsersApp>();
             // Controladores
-            //services.AddScoped<TokenController, TokenController>();
+            services.AddScoped<TokenController, TokenController>();
             services.AddCors(o => o.AddDefaultPolicy(b => b.AllowAnyOrigin()));
         }
 

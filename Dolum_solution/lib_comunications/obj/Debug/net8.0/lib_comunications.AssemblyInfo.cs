@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lib_comunications")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be3cdfe46091a5d59dc51bab1199b4b91813be4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e34fc385e929bcf0c5550b9ee8bc312f8263d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("lib_comunications")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lib_comunications")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

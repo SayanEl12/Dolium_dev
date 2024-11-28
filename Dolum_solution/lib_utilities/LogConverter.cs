@@ -12,7 +12,7 @@ namespace lib_utilities
             if (message.Length >= 110)
                 message = message.Substring(0, 110);
             
-            var msg = lib_lenguages.RsErrors.ResourceManager.GetString(message);
+            var msg = lib_lenguages.rsErrors.ResourceManager.GetString(message);
             if (!string.IsNullOrEmpty(msg))
             {
                 ViewData!["message"] = msg;

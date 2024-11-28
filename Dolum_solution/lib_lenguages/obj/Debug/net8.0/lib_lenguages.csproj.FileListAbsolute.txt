@@ -28,7 +28,6 @@ C:/Users/Usuario/Desktop/REPOSITORY/Dolium_dev/Dolum_solution/lib_lenguages/obj/
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.RsUsers.resources
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.RsImages.es-419.resources
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.RsSales.es-419.resources
-/home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.RsSmokers.es-419.resources
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.RsUsers.es-419.resources
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.csproj.GenerateResource.cache
 /home/santiago-herrera/Documents/U/Semestre_4/Dolium_project/Dolium_dev/Dolum_solution/lib_lenguages/obj/Debug/net8.0/lib_lenguages.GeneratedMSBuildEditorConfig.editorconfig

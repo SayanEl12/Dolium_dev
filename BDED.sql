@@ -115,6 +115,11 @@ INSERT INTO Smokers (Width, Height, Pounds, Price_ref, Detail, Stock) VALUES
 (60.00, 90.00, 64.00, 220.00, 'Gigante de hierro', 10);
 GO
 
+INSERT INTO Images (Id_Smoker, Url) VALUES
+(1, 'Url/1'),
+(1, 'Url/2')
+GO
+
 CREATE VIEW V_Sales AS
 SELECT 
     v.Id AS VentaID,

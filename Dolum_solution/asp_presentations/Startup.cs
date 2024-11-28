@@ -2,7 +2,7 @@
 using lib_comunications.Interfaces;
 using lib_presentations.Implementations;
 using lib_presentations.Interfaces;
-namespace asp_presentacion
+namespace asp_presentations
 {
     public class Startup
     {
@@ -18,11 +18,13 @@ namespace asp_presentacion
             services.AddScoped<ISmokersComunication, SmokersComunication>();
             services.AddScoped<ISalesComunication, SalesComunication>();
             services.AddScoped<IImagesComunication, ImagesComunication>();
+            services.AddScoped<IAuthenticateComunication, AuthenticateComunication>();
             // Presentaciones
             services.AddScoped<IUsersPresentation, UsersPresentation>();
             services.AddScoped<ISmokersPresentation, SmokersPresentation>();
             services.AddScoped<ISalesPresentation, SalesPresentation>();
             services.AddScoped<IImagesPresentation, ImagesPresentation>();
+            services.AddScoped<IAuthenticatePresentation, AuthenticatePresentation>();
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddRazorPages();
